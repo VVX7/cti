@@ -1,0 +1,40 @@
+{
+  "id": "bundle--ad36d147-b14d-4f69-9968-e393761fc8c3",
+  "objects": [
+    {
+      "created": "2019-10-15T10:44:48.602080",
+      "created_by_ref": "identity--74c59f30-5f59-47cb-8546-c8c681ed77d6",
+      "description": "",
+      "external_references": [
+        {
+          "external_id": "T0059",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0059.md"
+        }
+      ],
+      "id": "attack-pattern--4f55c2f3-04d4-44b7-a09b-950816b51cbf",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "persistence"
+        }
+      ],
+      "modified": "2019-10-15T10:44:48.602080",
+      "name": "Play the long game",
+      "object_marking_refs": [
+        "marking-definition--6ca019b4-0c61-487b-8759-3ee38677869b"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

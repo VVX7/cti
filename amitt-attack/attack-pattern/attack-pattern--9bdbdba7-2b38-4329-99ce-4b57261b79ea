@@ -1,0 +1,40 @@
+{
+  "id": "bundle--c517117f-e7c1-4f34-95ca-3359b6848dd3",
+  "objects": [
+    {
+      "created": "2019-10-15T10:44:48.602080",
+      "created_by_ref": "identity--74c59f30-5f59-47cb-8546-c8c681ed77d6",
+      "description": "",
+      "external_references": [
+        {
+          "external_id": "T0060",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0060.md"
+        }
+      ],
+      "id": "attack-pattern--9bdbdba7-2b38-4329-99ce-4b57261b79ea",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "persistence"
+        }
+      ],
+      "modified": "2019-10-15T10:44:48.602080",
+      "name": "Continue to amplify",
+      "object_marking_refs": [
+        "marking-definition--6ca019b4-0c61-487b-8759-3ee38677869b"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

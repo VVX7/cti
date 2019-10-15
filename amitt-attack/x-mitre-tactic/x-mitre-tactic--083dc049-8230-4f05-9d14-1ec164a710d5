@@ -1,0 +1,27 @@
+{
+  "id": "bundle--e882b92a-485e-448e-8993-371f390030f5",
+  "objects": [
+    {
+      "created": "2019-10-15T10:44:48.602080",
+      "created_by_ref": "identity--74c59f30-5f59-47cb-8546-c8c681ed77d6",
+      "description": "Set up specific delivery, amplification and manipulation channels for incident, including channels to attack. Each channel serves as an atomic surface (test bed) location/site for adversary to hide/conceal the work/content that goes into setting up for this channel and/or other specific platforms.  Contributes to building out a connected ecosystem where this channel can operate as part of a whole campaign/incident",
+      "external_references": [
+        {
+          "external_id": "TA07",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA07.md"
+        }
+      ],
+      "id": "x-mitre-tactic--083dc049-8230-4f05-9d14-1ec164a710d5",
+      "modified": "2019-10-15T10:44:48.602080",
+      "name": "Channel Selection",
+      "object_marking_refs": [
+        "marking-definition--6ca019b4-0c61-487b-8759-3ee38677869b"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "channel-selection"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

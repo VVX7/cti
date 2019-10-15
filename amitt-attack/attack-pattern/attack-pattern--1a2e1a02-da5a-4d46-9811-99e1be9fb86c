@@ -1,0 +1,40 @@
+{
+  "id": "bundle--85146afc-b9a7-4881-a8c2-c7c96b1a6b33",
+  "objects": [
+    {
+      "created": "2019-10-15T10:44:48.602080",
+      "created_by_ref": "identity--74c59f30-5f59-47cb-8546-c8c681ed77d6",
+      "description": "Use Instagram as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0033",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0033.md"
+        }
+      ],
+      "id": "attack-pattern--1a2e1a02-da5a-4d46-9811-99e1be9fb86c",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "channel-selection"
+        }
+      ],
+      "modified": "2019-10-15T10:44:48.602080",
+      "name": "Instagram",
+      "object_marking_refs": [
+        "marking-definition--6ca019b4-0c61-487b-8759-3ee38677869b"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}
