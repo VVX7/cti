@@ -1,0 +1,45 @@
+{
+  "id": "bundle--22afdbca-4e32-45cd-99f2-48da7eb68015",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Once they have been created, intelligence requirements, Key Intelligence Topics (KITs), and Key Intelligence Questions (KIQs) are submitted into a central management system. (Citation: ICD204) (Citation: KIT-Herring)",
+      "external_references": [
+        {
+          "external_id": "T1237",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1237.md"
+        },
+        {
+          "description": "Office of the Director of National Intelligence. (2015, January 02).  Retrieved March 5, 2017.",
+          "source_name": "ICD204"
+        },
+        {
+          "description": "Jan P. Herring. (1999). Key Intelligence Topics: A Process to Identify and Define Intelligence Needs. Retrieved May 19, 2017.",
+          "source_name": "KIT-Herring"
+        }
+      ],
+      "id": "attack-pattern--531a5205-d627-42ad-a8a1-758b08c4aaf3",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "priority-definition-direction"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Submit KITs, KIQs, and intelligence requirements",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bundle--d6e53ebe-ab61-4f86-8d7c-bce4d6c173ca",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Leadership identifies gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ). (Citation: ODNIIntegration) (Citation: ICD115)",
+      "external_references": [
+        {
+          "external_id": "T1225",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1225.md"
+        },
+        {
+          "description": "Office of the Director of National Intelligence. (n.d.). Intelligence Integration - Who Are We. Retrieved March 2, 2017.",
+          "source_name": "ODNIIntegration"
+        },
+        {
+          "description": "Office of the Director of National Intelligence. (2012, December 21). ICD 115: Intelligence Community Capability Requirements Process. Retrieved March 2, 2017.",
+          "source_name": "ICD115"
+        }
+      ],
+      "id": "attack-pattern--c41bafd1-7758-44c2-88b3-72da670e5882",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "priority-definition-planning"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Identify gap areas",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

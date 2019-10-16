@@ -1,0 +1,41 @@
+{
+  "id": "bundle--14a292b0-63ff-48ff-b2cf-6b8d6f9dc9b3",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "A remote access tool (RAT) is a piece of software that allows a remote user to control a system as if they had physical access to that system. An adversary may utilize existing RATs, modify existing RATs, or create their own RAT. (Citation: ActiveMalwareEnergy)",
+      "external_references": [
+        {
+          "external_id": "T1351",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1351.md"
+        },
+        {
+          "description": "Dan Goodin. (2014, June 30). Active malware operation let attackers sabotage US energy industry. Retrieved March 9, 2017.",
+          "source_name": "ActiveMalwareEnergy"
+        }
+      ],
+      "id": "attack-pattern--11b4ee13-8d70-47ad-9823-e6cf762ffbfe",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "build-capabilities"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Remote access tool development",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but development will be performed on their local systems.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Many successful RATs exist for re-use/tailoring in addition to those an adversary may choose to build from scratch.  The adversary's capabilities, target sensitivity, and needs will likely determine whether a previous RAT is modified for use a new one is built from scratch.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

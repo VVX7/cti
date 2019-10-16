@@ -1,0 +1,49 @@
+{
+  "id": "bundle--4de432ea-87ee-429c-85e9-7204cb52b8e2",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Software applications will be built using different technologies, languages, and dependencies. This information may reveal vulnerabilities or opportunities to an adversary. (Citation: CommonApplicationAttacks) (Citation: WebApplicationSecurity) (Citation: SANSTop25)",
+      "external_references": [
+        {
+          "external_id": "T1261",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1261.md"
+        },
+        {
+          "description": "Paul Ionescu. (2015, April 8). The 10 Most Common Application Attacks in Action. Retrieved March 5, 2017.",
+          "source_name": "CommonApplicationAttacks"
+        },
+        {
+          "description": "Gregory Leonard. (2016, February). Getting Started with Web Application Security. Retrieved March 5, 2017.",
+          "source_name": "WebApplicationSecurity"
+        },
+        {
+          "description": "SANS Institute. (2011, June 27). CWE/SANS TOP 25 Most Dangerous Software Errors. Retrieved March 5, 2017.",
+          "source_name": "SANSTop25"
+        }
+      ],
+      "id": "attack-pattern--cb518899-d60e-476d-bba4-5a665f02b1ae",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "technical-information-gathering"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Enumerate externally facing software applications technologies, languages, and dependencies",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "Yes",
+      "x_mitre_detectable_by_common_defenses_explanation": "Impossible to differentiate between an adversary and a normal user when accessing a site to determine the languages/technologies used.  If active scanning tools are employed, then the defender has the ability to detect.  However, this is typically not acted upon due to the large volume of this type of traffic and it will likely not prompt the defender to take any actionable defense.  Defender review of access logs may provide some insight based on trends or patterns.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Basic interaction with the site provides insight into the programming languages/technologies used for a given web site.  Additionally many of the active scanning tools will also provide some insight into this information.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

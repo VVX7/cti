@@ -1,0 +1,45 @@
+{
+  "id": "bundle--f806ac45-341f-43a0-a11f-01702428947a",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Google and Apple provide Google Cloud Messaging and Apple Push Notification Service, respectively, services designed to enable efficient communication between third-party mobile app backend servers and the mobile apps running on individual devices. These services maintain an encrypted connection between every mobile device and Google or Apple that cannot easily be inspected and must be allowed to traverse networks as part of normal device operation. These services could be used by adversaries for communication to compromised mobile devices. (Citation: Securelist Mobile Malware 2013) (Citation: DroydSeuss)",
+      "external_references": [
+        {
+          "external_id": "T1390",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1390.md"
+        },
+        {
+          "description": "Roman Unuchek, Victor Chebyshev. (2014, February 24). Mobile Malware Evolution: 2013. Retrieved April 12, 2017.",
+          "source_name": "Securelist Mobile Malware 2013"
+        },
+        {
+          "description": "Alberto Coletta, Victor van der Veen, and Federico Maggi. (2016). DroydSeuss: A Mobile Banking Trojan Tracker - Short Paper. Retrieved April 12, 2017.",
+          "source_name": "DroydSeuss"
+        }
+      ],
+      "id": "attack-pattern--924992f7-287f-44e8-84ad-ed03f4c67e76",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "adversary-opsec"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "OS-vendor provided communication channels",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "These services are heavily utilized by mainstream mobile app developers.  High volume of communications makes it extremely hard for a defender to distinguish between legitimate and adversary communications.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "These are free services provided by Google and Apple to app developers, and information on how to use them is readily available.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

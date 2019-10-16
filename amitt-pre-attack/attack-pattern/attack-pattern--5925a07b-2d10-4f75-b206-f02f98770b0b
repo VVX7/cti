@@ -1,0 +1,41 @@
+{
+  "id": "bundle--b63fd186-5ff5-4e38-bd90-ebe64409775a",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Code signing is the process of digitally signing executables or scripts to confirm the software author and guarantee that the code has not been altered or corrupted. Users may trust a signed piece of code more than an unsigned piece of code even if they don't know who issued the certificate or who the author is. (Citation: Adobe Code Signing Cert)",
+      "external_references": [
+        {
+          "external_id": "T1310",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1310.md"
+        },
+        {
+          "description": "Brad Arkin. (2012, September 27). Inappropriate Use of Adobe Code Signing Certificate. Retrieved March 28, 2017.",
+          "source_name": "Adobe Code Signing Cert"
+        }
+      ],
+      "id": "attack-pattern--5925a07b-2d10-4f75-b206-f02f98770b0b",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "adversary-opsec"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Acquire or compromise 3rd party signing certificates",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Defender will not know what certificates an adversary acquires from a 3rd party. Defender will not know prior to public disclosure if a 3rd party has had their certificate compromised.",
+      "x_mitre_difficulty_for_adversary": "No",
+      "x_mitre_difficulty_for_adversary_explanation": "It is trivial to purchase code signing certificates within an organization; many exist and are available at reasonable cost. It is complex to factor or steal 3rd party code signing certificates for use in malicious mechanisms",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

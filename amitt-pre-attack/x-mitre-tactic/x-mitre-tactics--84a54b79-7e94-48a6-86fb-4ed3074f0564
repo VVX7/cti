@@ -1,0 +1,27 @@
+{
+  "id": "bundle--bbbc5e12-3754-489c-90fe-2592514064f7",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Adversary OPSEC consists of the use of various technologies or 3rd party services to obfuscate, hide, or blend in with accepted network traffic or system behavior.  The adversary may use these techniques to evade defenses, reduce attribution, minimize discovery, and/or increase the time and effort required to analyze.",
+      "external_references": [
+        {
+          "external_id": "TA0021",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA0021.md"
+        }
+      ],
+      "id": "x-mitre-tactics--84a54b79-7e94-48a6-86fb-4ed3074f0564",
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Adversary OPSEC",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "adversary-opsec"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bundle--cb4166ce-ab94-46db-b697-fcf4d3c5ab41",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Job postings, on either company sites, or in other forums, provide information on organizational structure, needs, and gaps in an organization. This may give an adversary an indication of weakness in an organization (such as under-resourced IT shop). Job postings can also provide information on an organizations structure which could be valuable in social engineering attempts. (Citation: JobPostingThreat) (Citation: RSA-APTRecon)",
+      "external_references": [
+        {
+          "external_id": "T1278",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1278.md"
+        },
+        {
+          "description": "Jay D. Krasnow. (2000, October). The Competitive Intelligence and National Security Threat from Website Job Listings. Retrieved March 16, 2017.",
+          "source_name": "JobPostingThreat"
+        },
+        {
+          "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the “APT” Intelligence Gathering Process. Retrieved March 1, 2017.",
+          "source_name": "RSA-APTRecon"
+        }
+      ],
+      "id": "attack-pattern--615f74d8-33a8-4726-b091-52ab8f45468a",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "organizational-information-gathering"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Identify job postings and needs/gaps",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Public source external to the defender's organization.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Very public by design.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

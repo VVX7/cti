@@ -1,0 +1,46 @@
+{
+  "id": "bundle--6e87a4bd-216b-4724-848a-864467bd2b1a",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nSocial Engineering is the practice of manipulating people in order to get them to divulge information or take an action. Human Intelligence (HUMINT) is intelligence collected and provided by human sources. (Citation: 17millionScam) (Citation: UbiquityEmailScam)",
+      "external_references": [
+        {
+          "external_id": "T1376",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1376.md"
+        },
+        {
+          "description": "Chris Johnston. (2015, February 5). Company loses $17m in email scam. Retrieved March 9, 2017.",
+          "source_name": "17millionScam"
+        },
+        {
+          "description": "Robert Hackett. (2015, August 10). Fraudsters duped this company into handing over $40 million. Retrieved March 9, 2017.",
+          "source_name": "UbiquityEmailScam"
+        }
+      ],
+      "id": "attack-pattern--eed388a7-a4ac-456a-b456-65aeea283620",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "launch"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Conduct social engineering or HUMINT operation",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_deprecated": true,
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Assuming an average company does not train its employees to be aware of social engineering techniques, it is not possible to detect the adversary's use unless a highly motivated or paranoid employee informs security.  This assessment flips to a 1 in cases of environments where security trains employees to be vigilant or in specialized industries where competitive intelligence and business intelligence train employees to be highly aware.  Most likely more complex for an adversary to detect as methods move to physical or non traditionally monitored mechanisms (such as phone calls outside of call centers).  Furthermore, the content of such an interaction may be lost due to lack of collection.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Assuming an average adversary whose focus is social engineering, it is not difficult for an adversary.  Assuming a HUMINT operation and specialized circumstances, the adversary difficulty becomes 1.   Social engineering can be easily done remotely via email or phone.  In contrast, HUMINT operations typically would require physical contact at some point in the process, increasing the difficulty.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

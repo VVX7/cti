@@ -1,0 +1,45 @@
+{
+  "id": "bundle--07f15e8b-e5f3-46e9-aeb3-b68ce2b22ce8",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Once divided into the most granular parts, analysts work with collection managers to task the collection management system with requirements and sub-requirements. (Citation: Heffter) (Citation: JP2-01)",
+      "external_references": [
+        {
+          "external_id": "T1240",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1240.md"
+        },
+        {
+          "description": "Clyde R. Heffter. (2011, August 4). A Fresh Look at Collection Requirements. Retrieved March 2, 2017.",
+          "source_name": "Heffter"
+        },
+        {
+          "description": "Joint Chiefs of Staff. (2012, January 05). Joint and National Intelligence Support to Military Operations. Retrieved March 2, 2017.",
+          "source_name": "JP2-01"
+        }
+      ],
+      "id": "attack-pattern--fdaefddc-b42e-4b5c-ae4d-dfad6bc1b7fb",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "priority-definition-direction"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Task requirements",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

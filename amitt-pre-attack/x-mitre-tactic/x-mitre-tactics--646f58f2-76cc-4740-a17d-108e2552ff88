@@ -1,0 +1,27 @@
+{
+  "id": "bundle--5f92d211-6ced-4b59-9e6c-05e953029e3e",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Target selection consists of an iterative process in which an adversary determines a target by first beginning at the strategic level and then narrowing down operationally and tactically until a specific target is chosen.  A target may be defined as an entity or object that performs a function considered for possible engagement or other action.",
+      "external_references": [
+        {
+          "external_id": "TA0014",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA0014.md"
+        }
+      ],
+      "id": "x-mitre-tactics--646f58f2-76cc-4740-a17d-108e2552ff88",
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Target Selection",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "target-selection"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

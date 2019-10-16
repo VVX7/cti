@@ -1,0 +1,41 @@
+{
+  "id": "bundle--96d78aaa-cb30-4f9d-b4e2-126baf258240",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. (Citation: SonyDestover)",
+      "external_references": [
+        {
+          "external_id": "T1346",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1346.md"
+        },
+        {
+          "description": "Kurt Baumgartner. (2014, December 4). Sony/Destover: mystery North Korean actor’s destructive and past network activity. Retrieved March 9, 2017.",
+          "source_name": "SonyDestover"
+        }
+      ],
+      "id": "attack-pattern--3b27ff88-0a86-4cff-a449-5c59a27414bb",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "build-capabilities"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Obtain/re-use payloads",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but detecting an adversary acquiring a payload would require the defender to be monitoring the code repository where the payload is stored. If the adversary re-uses payloads, this allows the defender to create signatures to detect using these known indicators of compromise (e.g., hashes).",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Several exploit repositories and tool suites exist for re-use and tailoring.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

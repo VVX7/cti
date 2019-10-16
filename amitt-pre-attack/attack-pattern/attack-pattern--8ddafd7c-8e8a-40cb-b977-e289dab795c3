@@ -1,0 +1,41 @@
+{
+  "id": "bundle--9b99a8c2-8007-43b6-8a43-282c6067388a",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "A wide variety of cloud, virtual private services, hosting, compute, and storage solutions are available. Additionally botnets are available for rent or purchase. Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: LUCKYCAT2012)",
+      "external_references": [
+        {
+          "external_id": "T1307",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1307.md"
+        },
+        {
+          "description": "Forward-Looking Threat Research Team. (2012). LUCKYCAT REDUX: Inside an APT Campaign with Multiple Targets in India and Japan. Retrieved March 1, 2017.",
+          "source_name": "LUCKYCAT2012"
+        }
+      ],
+      "id": "attack-pattern--8ddafd7c-8e8a-40cb-b977-e289dab795c3",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "adversary-opsec"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Acquire and/or use 3rd party infrastructure services",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "3rd party services highly leveraged by legitimate services, hard to distinguish from background noise.  While an adversary can use their own infrastructure, most know this is a sure- re way to get caught. To add degrees of separation, they can buy or rent from another adversary or accomplice.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Wide range of 3rd party services for hosting, rotating, or moving C2, static data, exploits, exfiltration, etc.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

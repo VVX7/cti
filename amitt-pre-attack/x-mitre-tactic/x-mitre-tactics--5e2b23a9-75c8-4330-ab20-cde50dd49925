@@ -1,0 +1,27 @@
+{
+  "id": "bundle--e36dedaf-e007-4e87-9c50-a79ea5c651f9",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Organizational weakness identification consists of identifying and analyzing weaknesses and vulnerabilities from the intelligence gathering phases which can be leveraged to gain access to target or intermediate target organizations of interest.",
+      "external_references": [
+        {
+          "external_id": "TA0020",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA0020.md"
+        }
+      ],
+      "id": "x-mitre-tactics--5e2b23a9-75c8-4330-ab20-cde50dd49925",
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Organizational Weakness Identification",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "organizational-weakness-identification"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

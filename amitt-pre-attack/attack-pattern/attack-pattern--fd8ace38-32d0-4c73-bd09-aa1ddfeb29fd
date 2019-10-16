@@ -1,0 +1,45 @@
+{
+  "id": "bundle--a22111cb-c4f0-4f44-b24a-bd4ba6e386c0",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Once a 3rd party vendor has been identified as being of interest it can be probed for vulnerabilities just like the main target would be. (Citation: Zetter2015Threats) (Citation: WSJTargetBreach)",
+      "external_references": [
+        {
+          "external_id": "T1298",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1298.md"
+        },
+        {
+          "description": "Kim Zetter. (2015, January 4). The Biggest Security Threats We’ll Face in 2015. Retrieved March 5, 2017.",
+          "source_name": "Zetter2015Threats"
+        },
+        {
+          "description": "Paul Ziobro. (2014, February 6). Target Breach Began With Contractor's Electronic Billing Link. Retrieved March 6, 2017.",
+          "source_name": "WSJTargetBreach"
+        }
+      ],
+      "id": "attack-pattern--fd8ace38-32d0-4c73-bd09-aa1ddfeb29fd",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "organizational-weakness-identification"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Assess vulnerability of 3rd party vendors",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "3rd parties would most likely not report network scans to their partners.  Target network would not know that their 3rd party partners were being used as a vector.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "The difficult part is enumerating all 3rd parties.  Finding major partners would not be difficult.  Significantly easier with insider knowledge.  Vulnerability scanning the 3rd party networks is trivial.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

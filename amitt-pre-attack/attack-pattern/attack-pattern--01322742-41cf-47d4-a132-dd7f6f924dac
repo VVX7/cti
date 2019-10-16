@@ -1,0 +1,41 @@
+{
+  "id": "bundle--d7fb87e1-5bd2-413f-8557-7a2a459b4f3b",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Analysts may receive intelligence requirements from leadership and begin research process to satisfy a requirement.  Part of this process may include delineating between needs and wants and thinking through all the possible aspects associating with satisfying a requirement. (Citation: FBIIntelligencePrimer)",
+      "external_references": [
+        {
+          "external_id": "T1235",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1235.md"
+        },
+        {
+          "description": "FBI. (n.d.). Intelligence Branch: Intelligence Primer. Retrieved March 2, 2017.",
+          "source_name": "FBIIntelligencePrimer"
+        }
+      ],
+      "id": "attack-pattern--01322742-41cf-47d4-a132-dd7f6f924dac",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "priority-definition-planning"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Receive operator KITs/KIQs tasking",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

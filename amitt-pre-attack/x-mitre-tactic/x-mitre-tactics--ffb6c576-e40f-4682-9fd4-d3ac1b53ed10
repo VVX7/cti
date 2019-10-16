@@ -1,0 +1,27 @@
+{
+  "id": "bundle--ab323b23-e2a1-47cb-a1dc-7fe3352986bc",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "People Information Gathering consists of the process of identifying critical personnel elements of intelligence an adversary will need about a target in order to best attack.  People intelligence gathering focuses on identifying key personnel or individuals with critical accesses in order to best approach a target for attack.  It may involve aspects of social engineering, elicitation, mining social media sources, or be thought of as understanding the personnel element of competitive intelligence.",
+      "external_references": [
+        {
+          "external_id": "TA0016",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA0016.md"
+        }
+      ],
+      "id": "x-mitre-tactics--ffb6c576-e40f-4682-9fd4-d3ac1b53ed10",
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "People Information Gathering",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "people-information-gathering"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

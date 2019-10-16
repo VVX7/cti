@@ -1,0 +1,41 @@
+{
+  "id": "bundle--83b35b46-4d16-48fd-9515-9446742d0eda",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "An adversary may identify sensitive personnel information not typically posted on a social media site, such as address, marital status, financial history, and law enforcement infractions. This could be conducted by searching public records that are frequently available for free or at a low cost online. (Citation: RSA-APTRecon)",
+      "external_references": [
+        {
+          "external_id": "T1274",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1274.md"
+        },
+        {
+          "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the “APT” Intelligence Gathering Process. Retrieved March 1, 2017.",
+          "source_name": "RSA-APTRecon"
+        }
+      ],
+      "id": "attack-pattern--5c16be31-706b-4eda-883c-580ce3a47023",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "people-information-gathering"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Identify sensitive personnel information",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "This type of information is useful to understand the individual and their ability to be blackmailed.  Searching public records is easy and most information can be purchased for a low cost if the adversary really wants it.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

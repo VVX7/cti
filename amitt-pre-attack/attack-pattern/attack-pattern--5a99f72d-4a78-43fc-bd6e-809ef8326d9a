@@ -1,0 +1,53 @@
+{
+  "id": "bundle--b67120f5-b367-49c2-90ec-648e08a9e8ed",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "The adversary can obtain an Apple iOS enterprise distribution key pair and certificate and use it to distribute malicious apps directly to Apple iOS devices without the need to publish the apps to the Apple App Store (where the apps could potentially be detected). (Citation: Apple Developer Enterprise Porgram Apps) (Citation: Fruit vs Zombies) (Citation: WIRELURKER) (Citation: Sideloading Change)",
+      "external_references": [
+        {
+          "external_id": "T1392",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1392.md"
+        },
+        {
+          "description": "Apple Inc.. (2016). Distributing Apple Developer Enterprise Program Apps. Retrieved April 12, 2017.",
+          "source_name": "Apple Developer Enterprise Porgram Apps"
+        },
+        {
+          "description": "Claud Xiao. (2016). Fruit vs Zombies: Defeat Non-jailbroken iOS Malware. Retrieved April 12, 2017.",
+          "source_name": "Fruit vs Zombies"
+        },
+        {
+          "description": "Claud Xiao. (2014). WIRELURKER:  A New Era in iOS and OS X Malware. Retrieved April 12, 2017.",
+          "source_name": "WIRELURKER"
+        },
+        {
+          "description": "David Richardson. (2015, September 10). Change to sideloading apps in iOS 9 is a security win. Retrieved April 12, 2017.",
+          "source_name": "Sideloading Change"
+        }
+      ],
+      "id": "attack-pattern--5a99f72d-4a78-43fc-bd6e-809ef8326d9a",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "persona-development"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Obtain Apple iOS enterprise distribution key pair and certificate",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "Partial",
+      "x_mitre_detectable_by_common_defenses_explanation": "Starting in iOS 9, Apple has changed the user interface when installing apps to better indicate to users the potential implications of installing apps signed by an enterprise distribution key rather than from Apple's App Store and to make it more difficult for users to inadvertently install these apps. Additionally, enterprise management controls are available that can be imposed to prevent installing these apps. Also, enterprise mobility management / mobile device management (EMM/MDM) systems can be used to scan for the presence of undesired apps on enterprise mobile devices.",
+      "x_mitre_difficulty_for_adversary": "No",
+      "x_mitre_difficulty_for_adversary_explanation": "Apple requires a DUNS number, corporate documentation, and $299 to obtain an enterprise distribution certificate. Additionally, Apple revokes certificates if they discover malicious use.  However, the enrollment information could be falsified to Apple by an adversary, or an adversary could steal an existing enterprise distribution certificate (and the corresponding private key) from a business that already possesses one.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

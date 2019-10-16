@@ -1,0 +1,41 @@
+{
+  "id": "bundle--d9845e55-f4d5-40a3-9b9b-9514ad32b66d",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "An adversary can test the detections of malicious emails or files by using  publicly available services, such as virus total, to see if their files or emails cause an alert. They can also use similar services that are not openly available and don't publicly publish results or they can test on their own internal infrastructure. (Citation: WiredVirusTotal)",
+      "external_references": [
+        {
+          "external_id": "T1292",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1292.md"
+        },
+        {
+          "description": "Kim Zetter. (14, September 2). A Google Site Meant to Protect You Is Helping Hackers Attack You. Retrieved March 9, 2017.",
+          "source_name": "WiredVirusTotal"
+        }
+      ],
+      "id": "attack-pattern--2f468072-17ce-4246-a760-ab6184ac0bf6",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "technical-weakness-identification"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Test signature detection",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "Partial",
+      "x_mitre_detectable_by_common_defenses_explanation": "If using a common service like [https://www.virustotal.com VirusTotal], it is possible to detect.  If the adversary uses a hostile, less well-known service, the defender would not be aware.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Easy to automate upload/email of a wide range of data packages.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "bundle--8505ee75-3e76-475f-8239-15fbff3c8418",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Persona development consists of the development of public information, presence, history and appropriate affiliations.  This development could be applied to social media, website, or other publicly available information that could be referenced and scrutinized for legitimacy over the course of an operation using that persona or identity.",
+      "external_references": [
+        {
+          "external_id": "TA0023",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA0023.md"
+        }
+      ],
+      "id": "x-mitre-tactics--7469c220-33de-4b73-a97e-0444ea4d800f",
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Persona Development",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "persona-development"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

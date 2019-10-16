@@ -1,0 +1,45 @@
+{
+  "id": "bundle--bf6f07a0-f5be-495d-8dd0-912b538ca1e4",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "An adversary may stage software and tools for use during later stages of an attack. The software and tools may be placed on systems legitimately in use by the adversary or may be placed on previously compromised infrastructure. (Citation: APT1) (Citation: RedOctober)",
+      "external_references": [
+        {
+          "external_id": "T1362",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1362.md"
+        },
+        {
+          "description": "Mandiant. (n.d.). APT1: Exposing One of China’s Cyber Espionage Units. Retrieved March 5, 2017.",
+          "source_name": "APT1"
+        },
+        {
+          "description": "GReAT. (2013, January 17). “Red October”. Detailed Malware Description 4. Second Stage of Attack. Retrieved March 7, 2017.",
+          "source_name": "RedOctober"
+        }
+      ],
+      "id": "attack-pattern--cab58fbf-d40b-478d-a83d-36e07e09abdf",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "stage-capabilities"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Upload, install, and configure software/tools",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Infrastructure is (typically) outside of control/visibility of defender and as such as tools are staged for specific campaigns, it will not be observable to those being attacked.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], VPS providers).",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

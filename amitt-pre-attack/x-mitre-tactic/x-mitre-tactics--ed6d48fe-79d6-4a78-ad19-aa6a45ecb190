@@ -1,0 +1,27 @@
+{
+  "id": "bundle--72d9f418-3965-45ba-927c-e77bb490a598",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Staging capabilities consists of preparing operational environment required to conduct the operation.  This includes activities such as deploying software, uploading data, enabling command and control infrastructure.",
+      "external_references": [
+        {
+          "external_id": "TA0026",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA0026.md"
+        }
+      ],
+      "id": "x-mitre-tactics--ed6d48fe-79d6-4a78-ad19-aa6a45ecb190",
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Stage Capabilities",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "stage-capabilities"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

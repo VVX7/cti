@@ -1,0 +1,41 @@
+{
+  "id": "bundle--5316aafb-9143-493e-ab54-3908c8ba35d0",
+  "objects": [
+    {
+      "created": "2019-10-15T20:59:08.088346",
+      "created_by_ref": "identity--6b24ae51-4595-4d00-9e3b-64656b6c3458",
+      "description": "Callbacks are malware communications seeking instructions. An adversary will test their malware to ensure the appropriate instructions are conveyed and the callback software can be reached. (Citation: LeeBeaconing)",
+      "external_references": [
+        {
+          "external_id": "T1356",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T1356.md"
+        },
+        {
+          "description": "Tony Lee. (2012, December 11). Testing Your Defenses - Beaconing. Retrieved March 9, 2017.",
+          "source_name": "LeeBeaconing"
+        }
+      ],
+      "id": "attack-pattern--dd3ff402-7ddf-4819-8300-b381f8d97f66",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "test-capabilities"
+        }
+      ],
+      "modified": "2019-10-15T20:59:08.088346",
+      "name": "Test callback functionality",
+      "object_marking_refs": [
+        "marking-definition--3c5e9087-f390-4aa5-8911-f02883395b7e"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Adversary controls the test and defender likely has no visibility.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Adversary controls or acquires all pieces of infrastructure and can test outside of defender's visibility.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}
