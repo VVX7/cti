@@ -1,0 +1,45 @@
+{
+  "id": "bundle--5074c4dd-d07b-45bb-96a6-94ab4116358f",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "The attempt to identify people of interest or with an inherent weakness for direct or indirect targeting to determine an approach to compromise a person or organization.  Such targets may include individuals with poor OPSEC practices or those who have a trusted relationship with the intended target. (Citation: RSA-APTRecon) (Citation: Scasny2015)",
+      "external_references": [
+        {
+          "external_id": "T1269",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1269.md"
+        },
+        {
+          "description": "Rotem Kerner. (2015, October). RECONNAISSANCE: A Walkthrough of the “APT” Intelligence Gathering Process. Retrieved March 1, 2017.",
+          "source_name": "RSA-APTRecon"
+        },
+        {
+          "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017.",
+          "source_name": "Scasny2015"
+        }
+      ],
+      "id": "attack-pattern--c384615a-c3f3-4fc0-b645-b90f753bea64",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "people-information-gathering"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Identify people of interest",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Common defenses protecting against poor OPSEC practices are traditionally more policy-based in nature rather than technical.  Policy-based mitigations are generally more difficult to enforce and track violations, making it more difficult that this technique can be detected by common defenses.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Specialty cases enable an adversary to use key words in order to search social media and identify personnel with poor OPSEC practices who may have access to specialized information which would make them a target of interest.  In addition, the open nature of social media leads to a tendency among individuals to overshare, encouraging poor OPSEC and increasing the ease by which an adversary can identify interesting targets.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

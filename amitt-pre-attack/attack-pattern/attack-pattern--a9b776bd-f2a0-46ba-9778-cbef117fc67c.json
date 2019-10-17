@@ -1,0 +1,45 @@
+{
+  "id": "bundle--1f2aaccd-a676-4c51-ab57-211c05ce91c4",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Anonymity services reduce the amount of information available that can be used to track an adversary's activities.  Multiple options are available to hide activity, limit tracking, and increase anonymity. (Citation: TOR Design) (Citation: Stratfor2012)",
+      "external_references": [
+        {
+          "external_id": "T1306",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1306.md"
+        },
+        {
+          "description": "Roger Dingledine, Nick Mathewson, Paul Syverson. (2004, August). Tor: The Second-Generation Onion Router. Retrieved March 28, 2017.",
+          "source_name": "TOR Design"
+        },
+        {
+          "description": "Sean Gallagher. (2012, March 6). Inside the hacking of Stratfor: the FBI’s case against Antisec member Anarchaos. Retrieved March 1, 2017.",
+          "source_name": "Stratfor2012"
+        }
+      ],
+      "id": "attack-pattern--a9b776bd-f2a0-46ba-9778-cbef117fc67c",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "adversary-opsec"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Anonymity services",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Depends on service.  Some are easy to detect, but are hard to trace (e.g., [https://torproject.org TOR]).",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Easy access to anonymizers, quasi-anonymous services like remailers, [https://torproject.org TOR], relays, burner phones, etc.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

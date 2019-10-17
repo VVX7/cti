@@ -1,0 +1,49 @@
+{
+  "id": "bundle--1d7d8961-4f6f-4f5a-b364-c217172a302e",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Both newly built personas and pre-compromised personas may require development of additional documentation to make them seem real. This could include filling out profile information, developing social networks, or incorporating photos. (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)",
+      "external_references": [
+        {
+          "external_id": "T1342",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1342.md"
+        },
+        {
+          "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017.",
+          "source_name": "NEWSCASTER2014"
+        },
+        {
+          "description": "Thomas Ryan. (2010). “Getting In Bed with Robin Sage.”. Retrieved March 6, 2017.",
+          "source_name": "BlackHatRobinSage"
+        },
+        {
+          "description": "Joan Goodchild. (2010, July 8). The Robin Sage experiment: Fake profile fools security pros. Retrieved March 6, 2017.",
+          "source_name": "RobinSageInterview"
+        }
+      ],
+      "id": "attack-pattern--407b21f3-d706-4deb-b294-beac2814e746",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "persona-development"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Develop social network persona digital footprint",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Unless there is some threat intelligence reporting, these users are hard to differentiate.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "The only difference between an adversary conducting this technique and a typical user, is the adversary's intent - to target an individual for compromise.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

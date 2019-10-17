@@ -1,0 +1,41 @@
+{
+  "id": "bundle--4b729038-08fe-45be-8737-653d50579ca9",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Technology usage patterns include identifying if users work offsite, connect remotely, or other possibly less restricted/secured access techniques. (Citation: SANSRemoteAccess)",
+      "external_references": [
+        {
+          "external_id": "T1264",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1264.md"
+        },
+        {
+          "description": "Jason Ragland. (2010, January 18). Remotely Accessing Sensitive Resources. Retrieved March 5, 2017.",
+          "source_name": "SANSRemoteAccess"
+        }
+      ],
+      "id": "attack-pattern--08e43f1e-741f-479e-8f6c-0a3fb77bff96",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "technical-information-gathering"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Identify technology usage patterns",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Physical observations, OSINT for remote access instructions, and other techniques are not detectable.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Determine if users work offsite, connect remotely, or other possibly less restricted/secured access techniques.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

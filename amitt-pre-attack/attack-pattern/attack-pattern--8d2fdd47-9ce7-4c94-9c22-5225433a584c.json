@@ -1,0 +1,45 @@
+{
+  "id": "bundle--41ab754d-3653-4203-8fa2-a87cd328a682",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Certificates are designed to instill trust. They  include information about the key, information about its owner's identity, and the digital signature of an entity that has verified the certificate's contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner. Acquiring a certificate for a  domain name similar to one that is expected to be trusted may allow an adversary to trick a user in to trusting the domain (e.g., vvachovia instead of [Wachovia](https://www.wellsfargo.com/about/corporate/wachovia) -- homoglyphs). (Citation: SubvertSSL) (Citation: PaypalScam)",
+      "external_references": [
+        {
+          "external_id": "T1337",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1337.md"
+        },
+        {
+          "description": "Ryan Singel. (2010, March 24). Law Enforcement Appliance Subverts SSL. Retrieved March 2, 2017.",
+          "source_name": "SubvertSSL"
+        },
+        {
+          "description": "Bob Sullivan. (2000, July 24). PayPal alert! Beware the 'PaypaI' scam. Retrieved March 2, 2017.",
+          "source_name": "PaypalScam"
+        }
+      ],
+      "id": "attack-pattern--8d2fdd47-9ce7-4c94-9c22-5225433a584c",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "establish-&-maintain-infrastructure"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "SSL certificate acquisition for domain",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "Yes",
+      "x_mitre_detectable_by_common_defenses_explanation": "Defender can monitor for domains similar to popular sites (possibly leverage [https://www.alexa.com Alexa] top ''N'' lists as starting point).",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "SSL certificates are readily available at little to no cost.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

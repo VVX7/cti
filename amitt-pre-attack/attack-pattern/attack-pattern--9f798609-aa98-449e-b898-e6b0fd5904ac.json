@@ -1,0 +1,41 @@
+{
+  "id": "bundle--a1779a8d-5afe-472e-abdf-01cc6faa510d",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Obfuscation is hiding the day-to-day building and testing of new tools, chat servers, etc. (Citation: LUCKYCAT2012)",
+      "external_references": [
+        {
+          "external_id": "T1309",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1309.md"
+        },
+        {
+          "description": "Forward-Looking Threat Research Team. (2012). LUCKYCAT REDUX: Inside an APT Campaign with Multiple Targets in India and Japan. Retrieved March 1, 2017.",
+          "source_name": "LUCKYCAT2012"
+        }
+      ],
+      "id": "attack-pattern--9f798609-aa98-449e-b898-e6b0fd5904ac",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "adversary-opsec"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Obfuscate infrastructure",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "Yes",
+      "x_mitre_detectable_by_common_defenses_explanation": "Difficult, but defender is well aware of technique and attempts to find discrepancies.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Adversary has a variety of solutions, ranging in difficulty, that can be employed (e.g., BGP hijacking, tunneling, reflection, multi-hop, etc.)\nAdversary can also use misattributable credentials to obtain servers, build environment, [https://aws.amazon.com Amazon Web Services] (AWS) accounts, etc.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

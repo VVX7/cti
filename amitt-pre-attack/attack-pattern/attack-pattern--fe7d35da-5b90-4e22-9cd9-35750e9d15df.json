@@ -1,0 +1,49 @@
+{
+  "id": "bundle--99fd1781-7428-48f1-b527-2eeb87deec05",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Strategic plans outline the mission, vision, and goals for an adversary at a high level in relation to the key partners, topics, and functions the adversary carries out. (Citation: KPMGChina5Year) (Citation: China5YearPlans) (Citation: ChinaUN)",
+      "external_references": [
+        {
+          "external_id": "T1231",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1231.md"
+        },
+        {
+          "description": "KPMG. (2016, October 19). China’s 13th Five-Year Plan signals a potential new era of Sino-foreign cooperation, finds KPMG report. Retrieved March 2, 2017.",
+          "source_name": "KPMGChina5Year"
+        },
+        {
+          "description": "Wikipedia contributors. (2017, February 8). Five-year plans of China. Retrieved March 2, 2017.",
+          "source_name": "China5YearPlans"
+        },
+        {
+          "description": "People's Republic of China. (2015, November). China's 13th Five-Year Plan. Retrieved May 19, 2017.",
+          "source_name": "ChinaUN"
+        }
+      ],
+      "id": "attack-pattern--fe7d35da-5b90-4e22-9cd9-35750e9d15df",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "priority-definition-planning"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Create strategic plan",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

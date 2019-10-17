@@ -1,0 +1,49 @@
+{
+  "id": "bundle--7409118f-9595-4e0a-bdcd-7d90562a2f4d",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "For attacks incorporating social engineering the utilization of an on-line persona is important. These personas may be fictitious or impersonate real people. The persona may exist on a single site or across multiple sites ([Facebook](https://www.facebook.com), [LinkedIn](https://www.linkedin.com), [Twitter](https://twitter.com), [Google+](https://plus.google.com), etc.). (Citation: NEWSCASTER2014) (Citation: BlackHatRobinSage) (Citation: RobinSageInterview)",
+      "external_references": [
+        {
+          "external_id": "T1341",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1341.md"
+        },
+        {
+          "description": "Mike Lennon. (2014, May 29). Iranian Hackers Targeted US Officials in Elaborate Social Media Attack Operation. Retrieved March 1, 2017.",
+          "source_name": "NEWSCASTER2014"
+        },
+        {
+          "description": "Thomas Ryan. (2010). “Getting In Bed with Robin Sage.”. Retrieved March 6, 2017.",
+          "source_name": "BlackHatRobinSage"
+        },
+        {
+          "description": "Joan Goodchild. (2010, July 8). The Robin Sage experiment: Fake profile fools security pros. Retrieved March 6, 2017.",
+          "source_name": "RobinSageInterview"
+        }
+      ],
+      "id": "attack-pattern--ba22b320-1029-4907-b473-8c1513af9b85",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "persona-development"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Build social network persona",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Unless there is some threat intelligence reporting, these users are hard to differentiate.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Performing activities like typical users, but with specific intent in mind.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

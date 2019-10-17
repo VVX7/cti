@@ -1,0 +1,49 @@
+{
+  "id": "bundle--794b5c1a-4c2a-4204-b1fd-29a4614f5f7c",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Analysts identify gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ). (Citation: BrighthubGapAnalysis) (Citation: ICD115) (Citation: JP2-01)",
+      "external_references": [
+        {
+          "external_id": "T1233",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1233.md"
+        },
+        {
+          "description": "Ronda Bowen. (2014, March 26). Performing a Gap Analysis: Where Do You Begin?. Retrieved March 14, 2017.",
+          "source_name": "BrighthubGapAnalysis"
+        },
+        {
+          "description": "Office of the Director of National Intelligence. (2012, December 21). ICD 115: Intelligence Community Capability Requirements Process. Retrieved March 2, 2017.",
+          "source_name": "ICD115"
+        },
+        {
+          "description": "Joint Chiefs of Staff. (2012, January 05). Joint and National Intelligence Support to Military Operations. Retrieved March 2, 2017.",
+          "source_name": "JP2-01"
+        }
+      ],
+      "id": "attack-pattern--c5eedca7-dd2a-4965-8d0a-b0112548346b",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "priority-definition-planning"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Identify analyst level gaps",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

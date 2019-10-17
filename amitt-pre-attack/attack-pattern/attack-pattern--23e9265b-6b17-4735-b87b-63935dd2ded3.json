@@ -1,0 +1,41 @@
+{
+  "id": "bundle--79a96a87-1fb8-4559-b422-bed05c5072bc",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts. (Citation: FakeLinkedIn)",
+      "external_references": [
+        {
+          "external_id": "T1300",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1300.md"
+        },
+        {
+          "description": "LIFARS. (2015, October 8). Hackers Fake LinkedIn Profiles to Scout Targets. Retrieved March 5, 2017.",
+          "source_name": "FakeLinkedIn"
+        }
+      ],
+      "id": "attack-pattern--23e9265b-6b17-4735-b87b-63935dd2ded3",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "organizational-weakness-identification"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Analyze organizational skillsets and deficiencies",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

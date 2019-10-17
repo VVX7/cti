@@ -1,0 +1,41 @@
+{
+  "id": "bundle--daa38f9d-61b9-4b7c-b412-8b8e94478197",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Templates and branding materials may be used by an adversary to add authenticity to social engineering message. (Citation: Scasny2015)",
+      "external_references": [
+        {
+          "external_id": "T1281",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1281.md"
+        },
+        {
+          "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017.",
+          "source_name": "Scasny2015"
+        }
+      ],
+      "id": "attack-pattern--f3b51488-0fab-433f-9ed8-48fe04fb5e7e",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "organizational-information-gathering"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Obtain templates/branding materials",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Adversary may download templates or branding from publicly available presentations that the defender can't monitor.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Some branding information is publicly available when a corporation publishes their briefings to the internet which provides insight into branding information and template materials.  An exhaustive list of templating and branding is likely not available on the internet.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

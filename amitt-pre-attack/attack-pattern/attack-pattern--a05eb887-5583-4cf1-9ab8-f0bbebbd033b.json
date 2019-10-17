@@ -1,0 +1,41 @@
+{
+  "id": "bundle--b9897ef9-b9cb-45e7-835e-24aa17342b3f",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "A form of social engineering designed build trust and to lay the foundation for future interactions or attacks. (Citation: BlackHatRobinSage)",
+      "external_references": [
+        {
+          "external_id": "T1364",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1364.md"
+        },
+        {
+          "description": "Thomas Ryan. (2010). “Getting In Bed with Robin Sage.”. Retrieved March 6, 2017.",
+          "source_name": "BlackHatRobinSage"
+        }
+      ],
+      "id": "attack-pattern--a05eb887-5583-4cf1-9ab8-f0bbebbd033b",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "stage-capabilities"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Friend/Follow/Connect to targets of interest",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Users have the ability to detect and report non-authenticated individuals requesting to follow, friend or connect to a target.  However the rigidity in validating the users is not typically followed by standard users.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Connecting with \"friends\" is a fundamental requirement for social media - without it, social media is worthless.  An adversary can easily create a profile and request targets to validate the requests.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

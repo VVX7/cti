@@ -1,0 +1,57 @@
+{
+  "id": "bundle--563d4157-7c59-4a14-8a5d-6e16218b01b8",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "The approach or attack vector outlines the specifics behind how the adversary would like to attack the target.  As additional information is known through the other phases of PRE-ATT&CK, an adversary may update the approach or attack vector. (Citation: CyberAdversaryBehavior) (Citation: WITCHCOVEN2015) (Citation: JP3-60) (Citation: JP3-12R) (Citation: DoD Cyber 2015)",
+      "external_references": [
+        {
+          "external_id": "T1245",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1245.md"
+        },
+        {
+          "description": "Elizabeth Van Ruitenbeek, Ken Keefe, William H. Sanders, and Carol Muehrcke. (2010). Characterizing the Behavior of Cyber Adversaries: The Means, Motive, and Opportunity of Cyberattacks. Retrieved March 5, 2017.",
+          "source_name": "CyberAdversaryBehavior"
+        },
+        {
+          "description": "Jonathan Wrolstad and Barry Vengerik. (2015, November). Pinpointing Targets: Exploiting Web Analytics to Ensnare Victims. Retrieved March 5, 2017.",
+          "source_name": "WITCHCOVEN2015"
+        },
+        {
+          "description": "Joint Chiefs of Staff. (2013, January 31). Joint Targeting. Retrieved May 19, 2017.",
+          "source_name": "JP3-60"
+        },
+        {
+          "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017.",
+          "source_name": "JP3-12R"
+        },
+        {
+          "description": "Department of Defense. (2015, April). The Department of Defense Cyber Strategy. Retrieved May 19, 2017.",
+          "source_name": "DoD Cyber 2015"
+        }
+      ],
+      "id": "attack-pattern--8f100ccd-fe92-4fc8-8192-8e4fe464297a",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "target-selection"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Determine approach/attack vector",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

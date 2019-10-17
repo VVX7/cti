@@ -1,0 +1,27 @@
+{
+  "id": "bundle--28375caa-7ae9-4a19-b76a-a2b348090835",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Technical weakness identification consists of identifying and analyzing weaknesses and vulnerabilities collected during the intelligence gathering phases to determine best approach based on technical complexity and adversary priorities (e.g., expediency, stealthiness).",
+      "external_references": [
+        {
+          "external_id": "TA0018",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/tactics/TA0018.md"
+        }
+      ],
+      "id": "x-mitre-tactic--799cb128-e3ac-490b-936a-c7b951fba0cf",
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Technical Weakness Identification",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "technical-weakness-identification"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

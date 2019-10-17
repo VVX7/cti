@@ -1,0 +1,45 @@
+{
+  "id": "bundle--6f81abe8-5c40-4042-b237-3ceea104246c",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Outsourcing, the arrangement of one company providing goods or services to another company for something that could be done in-house, provides another avenue for an adversary to target. Businesses often have networks, portals, or other technical connections between themselves and their outsourced/partner organizations that could be exploited. Additionally, outsourced/partner organization information could provide opportunities for phishing. (Citation: Scasny2015) (Citation: OPM Breach)",
+      "external_references": [
+        {
+          "external_id": "T1303",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1303.md"
+        },
+        {
+          "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017.",
+          "source_name": "Scasny2015"
+        },
+        {
+          "description": "Hon. Jason Chaffetz, Hon. Mark Meadows, Hon. Will Hurd. (2016, September 7). The OPM Data Breach: How the Government Jeopardized Our National Security for More than a Generation. Retrieved March 28, 2017.",
+          "source_name": "OPM Breach"
+        }
+      ],
+      "id": "attack-pattern--104d38d8-6043-4a69-9700-3373bd532f05",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "organizational-weakness-identification"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Analyze presence of outsourced capabilities",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Much of this analysis can be done using the target's open source website, which is purposely designed to be informational and may not have extensive visitor tracking capabilities.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Analyzing business relationships from information gathering may provide insight into outsourced capabilities.  In certain industries, outsourced capabilities or close business partnerships may be advertised on corporate websites.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

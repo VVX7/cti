@@ -1,0 +1,53 @@
+{
+  "id": "bundle--728fbf80-e951-4172-96b7-8c5a9e269ce1",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Analysts assess current information available against requirements that outline needs and wants as part of the research baselining process to begin satisfying a requirement. (Citation: CyberAdvertisingChar) (Citation: CIATradecraft) (Citation: ForensicAdversaryModeling) (Citation: CyberAdversaryBehavior)",
+      "external_references": [
+        {
+          "external_id": "T1236",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1236.md"
+        },
+        {
+          "description": "Tom Parker, Matt Devost, Marcus Sachs, and Toby Miller. (2003). Cyber Adversary Characterization. Retrieved March 5, 2017.",
+          "source_name": "CyberAdvertisingChar"
+        },
+        {
+          "description": "Central Intelligence Agency. (2009). A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis. Retrieved March 5, 2017.",
+          "source_name": "CIATradecraft"
+        },
+        {
+          "description": "John Lowry, Rico Valdez, Brad Wood. (n.d.). Adversary Modeling to Develop Forensic Observables. Retrieved March 5, 2017.",
+          "source_name": "ForensicAdversaryModeling"
+        },
+        {
+          "description": "Elizabeth Van Ruitenbeek, Ken Keefe, William H. Sanders, and Carol Muehrcke. (2010). Characterizing the Behavior of Cyber Adversaries: The Means, Motive, and Opportunity of Cyberattacks. Retrieved March 5, 2017.",
+          "source_name": "CyberAdversaryBehavior"
+        }
+      ],
+      "id": "attack-pattern--96cd21fe-c3e6-4d88-a1fb-dde4c0c12049",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "priority-definition-planning"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Assess current holdings, needs, and wants",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "bundle--15a42af7-1655-4f9e-83fb-d8a2af102ec2",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the technology or interconnections that are part of the supply chain. (Citation: SmithSupplyChain) (Citation: CERT-UKSupplyChain) (Citation: RSA-supply-chain)",
+      "external_references": [
+        {
+          "external_id": "T1246",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1246.md"
+        },
+        {
+          "description": "Drew Smith. (2015). Is your supply chain safe from cyberattacks?. Retrieved March 5, 2017.",
+          "source_name": "SmithSupplyChain"
+        },
+        {
+          "description": "CERT-UK. (2016, October 01). Cyber-security risks in the supply chain. Retrieved March 5, 2017.",
+          "source_name": "CERT-UKSupplyChain"
+        },
+        {
+          "description": "RSA Research. (2017, February). KINGSLAYER – A SUPPLY CHAIN ATTACK. Retrieved May 9, 2017.",
+          "source_name": "RSA-supply-chain"
+        }
+      ],
+      "id": "attack-pattern--3d2ef530-fbe3-48db-9222-669b239b5a5d",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "technical-information-gathering"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Identify supply chains",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Difficult, if not impossible to detect, because the adversary may collect this information from external sources that cannot be monitored by a defender.",
+      "x_mitre_difficulty_for_adversary": "No",
+      "x_mitre_difficulty_for_adversary_explanation": "Supply chain diversity of sourcing increases adversary difficulty with accurate mapping.  Industry practice has moved towards agile sourcing.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

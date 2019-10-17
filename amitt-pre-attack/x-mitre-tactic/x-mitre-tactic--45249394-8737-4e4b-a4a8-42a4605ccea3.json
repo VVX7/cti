@@ -1,0 +1,27 @@
+{
+  "id": "bundle--1248d34d-a9fa-43bc-8531-298e28e3f712",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Organizational information gathering consists of the process of identifying critical organizational elements of intelligence an adversary will need about a target in order to best attack.  Similar to competitive intelligence, organizational intelligence gathering focuses on understanding the operational tempo of an organization and gathering a deep understanding of the organization and how it operates, in order to best develop a strategy to target it.",
+      "external_references": [
+        {
+          "external_id": "TA0017",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/tactics/TA0017.md"
+        }
+      ],
+      "id": "x-mitre-tactic--45249394-8737-4e4b-a4a8-42a4605ccea3",
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Organizational Information Gathering",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "organizational-information-gathering"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

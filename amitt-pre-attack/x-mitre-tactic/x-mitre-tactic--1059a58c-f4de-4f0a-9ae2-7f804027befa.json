@@ -1,0 +1,27 @@
+{
+  "id": "bundle--bb59ab2b-d350-42e5-8aac-6cc858c60787",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Building capabilities consists of developing and/or acquiring the software, data and techniques used at different phases of an operation.  This is the process of identifying development requirements and implementing solutions such as malware,  delivery mechanisms, obfuscation/cryptographic protections, and call back and O&M functions.",
+      "external_references": [
+        {
+          "external_id": "TA0024",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/tactics/TA0024.md"
+        }
+      ],
+      "id": "x-mitre-tactic--1059a58c-f4de-4f0a-9ae2-7f804027befa",
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Build Capabilities",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "build-capabilities"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

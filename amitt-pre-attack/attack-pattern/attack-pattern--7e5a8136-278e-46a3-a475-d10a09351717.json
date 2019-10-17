@@ -1,0 +1,41 @@
+{
+  "id": "bundle--38f240ec-6511-48d0-9dd8-2077859ec6d5",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "An adversary needs the necessary skills to set up procured equipment and software to create their desired infrastructure. (Citation: KasperskyRedOctober)",
+      "external_references": [
+        {
+          "external_id": "T1336",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1336.md"
+        },
+        {
+          "description": "Kaspersky Labs. (2013, January 14). Kaspersky Lab Identifies Operation “Red October,” an Advanced Cyber-Espionage Campaign Targeting Diplomatic and Government Institutions Worldwide. Retrieved March 6, 2017.",
+          "source_name": "KasperskyRedOctober"
+        }
+      ],
+      "id": "attack-pattern--7e5a8136-278e-46a3-a475-d10a09351717",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "establish-&-maintain-infrastructure"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Install and configure hardware, network, and systems",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Defender will not have visibility on 3rd party sites unless target is successfully enticed to visit one.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Skills are common to majority of computer scientists and \"hackers\".  Can be easily obtained through contracting if not organic to adversary's organization.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

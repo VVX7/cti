@@ -1,0 +1,45 @@
+{
+  "id": "bundle--27837cac-0a93-49ba-a148-96a0d88c6531",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Leadership or key decision makers may derive specific intelligence requirements from Key Intelligence Topics (KITs) or Key Intelligence Questions (KIQs).  Specific intelligence requirements assist analysts in gathering information to establish a baseline of information about a topic or question and collection managers to clarify the types of information that should be collected to satisfy the requirement. (Citation: LowenthalCh4) (Citation: Heffter)",
+      "external_references": [
+        {
+          "external_id": "T1230",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1230.md"
+        },
+        {
+          "description": "Mark M. Lowenthal. (n.d.). Ch 4: The Intelligence Process--A Macro Look; Who Does What for Whome?, Intelligence: From Secrets to Policy. Retrieved March 2, 2017.",
+          "source_name": "LowenthalCh4"
+        },
+        {
+          "description": "Clyde R. Heffter. (2011, August 4). A Fresh Look at Collection Requirements. Retrieved March 2, 2017.",
+          "source_name": "Heffter"
+        }
+      ],
+      "id": "attack-pattern--44ebdc6c-b584-4b9a-b2f2-80d8fea8710a",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "priority-definition-planning"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Derive intelligence requirements",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

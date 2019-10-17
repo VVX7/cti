@@ -1,0 +1,27 @@
+{
+  "id": "bundle--d40aeb13-903d-45a9-9b50-46cc0fc3bff7",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Testing capabilities takes place when adversaries may need to test capabilities externally to refine development goals and criteria and to ensure success during an operation. Certain testing may be done after a capability is staged.",
+      "external_references": [
+        {
+          "external_id": "TA0025",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/tactics/TA0025.md"
+        }
+      ],
+      "id": "x-mitre-tactic--e5b230b9-a482-42c5-8d63-230c22cc331f",
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Test Capabilities",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "test-capabilities"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

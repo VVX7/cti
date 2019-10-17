@@ -1,0 +1,53 @@
+{
+  "id": "bundle--7050cf46-042a-482d-a516-508d0e9ca692",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "An adversary undergoes an iterative target selection process that may begin either broadly and narrow down into specifics (strategic to tactical) or narrowly and expand outward (tactical to strategic).  As part of this process, an adversary may determine a high level target they wish to attack. One example of this may be a particular country, government, or commercial sector. (Citation: CyberAdversaryBehavior) (Citation: JP3-60) (Citation: JP3-12R) (Citation: DoD Cyber 2015)",
+      "external_references": [
+        {
+          "external_id": "T1241",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1241.md"
+        },
+        {
+          "description": "Elizabeth Van Ruitenbeek, Ken Keefe, William H. Sanders, and Carol Muehrcke. (2010). Characterizing the Behavior of Cyber Adversaries: The Means, Motive, and Opportunity of Cyberattacks. Retrieved March 5, 2017.",
+          "source_name": "CyberAdversaryBehavior"
+        },
+        {
+          "description": "Joint Chiefs of Staff. (2013, January 31). Joint Targeting. Retrieved May 19, 2017.",
+          "source_name": "JP3-60"
+        },
+        {
+          "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017.",
+          "source_name": "JP3-12R"
+        },
+        {
+          "description": "Department of Defense. (2015, April). The Department of Defense Cyber Strategy. Retrieved May 19, 2017.",
+          "source_name": "DoD Cyber 2015"
+        }
+      ],
+      "id": "attack-pattern--dabdbb2b-0cd7-4b19-81b0-41bdd88d0c5c",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "target-selection"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Determine strategic target",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

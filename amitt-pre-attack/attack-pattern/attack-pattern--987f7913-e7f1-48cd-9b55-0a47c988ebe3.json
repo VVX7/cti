@@ -1,0 +1,41 @@
+{
+  "id": "bundle--b9e87aeb-b669-4e51-a4c0-ae66583c2b8a",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "A wide variety of cloud, virtual private services, hosting, compute, and storage solutions are available. Additionally botnets are available for rent or purchase. Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. (Citation: TrendmicroHideoutsLease)",
+      "external_references": [
+        {
+          "external_id": "T1329",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1329.md"
+        },
+        {
+          "description": "Max Goncharov. (2015, July 15). Criminal Hideouts for Lease: Bulletproof Hosting Services. Retrieved March 6, 2017.",
+          "source_name": "TrendmicroHideoutsLease"
+        }
+      ],
+      "id": "attack-pattern--987f7913-e7f1-48cd-9b55-0a47c988ebe3",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "establish-&-maintain-infrastructure"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Acquire and/or use 3rd party infrastructure services",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Hard to differentiate from standard business operations.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Wide variety of cloud/VPS/hosting/compute/storage solutions available for adversary to acquire freely or at a low cost.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

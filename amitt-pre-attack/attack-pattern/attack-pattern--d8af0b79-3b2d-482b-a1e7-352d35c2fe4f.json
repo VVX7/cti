@@ -1,0 +1,41 @@
+{
+  "id": "bundle--089e715a-9efc-4110-a8ab-c5425c88a9a4",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Applicable agencies and/or personnel receive intelligence requirements and evaluate them to determine sub-requirements related to topics, questions, or requirements.  For example, an adversary's  nuclear energy requirements may be further divided into nuclear facilities versus nuclear warhead capabilities. (Citation: AnalystsAndPolicymaking)",
+      "external_references": [
+        {
+          "external_id": "T1239",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1239.md"
+        },
+        {
+          "description": "Jack Davis. (2002, September). Improving CIA Analytic Performance: Analysts and the Policymaking Process. Retrieved March 5, 2017.",
+          "source_name": "AnalystsAndPolicymaking"
+        }
+      ],
+      "id": "attack-pattern--d8af0b79-3b2d-482b-a1e7-352d35c2fe4f",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "priority-definition-direction"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Receive KITs/KIQs and determine requirements",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

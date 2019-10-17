@@ -1,0 +1,27 @@
+{
+  "id": "bundle--9a6b29a5-2383-4f61-8bfd-391290fb2a88",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Technical information gathering consists of the process of identifying critical technical elements of intelligence an adversary will need about a target in order to best attack.  Technical intelligence gathering includes, but is not limited to, understanding the target's network architecture, IP space, network services, email format, and security procedures.",
+      "external_references": [
+        {
+          "external_id": "TA0015",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/tactics/TA0015.md"
+        }
+      ],
+      "id": "x-mitre-tactic--9f72c5ed-56b7-4313-bdc1-8f9dc656907a",
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Technical Information Gathering",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "technical-information-gathering"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

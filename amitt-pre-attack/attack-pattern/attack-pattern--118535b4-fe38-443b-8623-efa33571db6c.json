@@ -1,0 +1,45 @@
+{
+  "id": "bundle--6630ffd2-a02c-4bf2-85dd-3f120da345d2",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the people, their positions, and relationships, that are part of the supply chain. (Citation: SmithSupplyChain) (Citation: CERT-UKSupplyChain)",
+      "external_references": [
+        {
+          "external_id": "T1265",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1265.md"
+        },
+        {
+          "description": "Drew Smith. (2015). Is your supply chain safe from cyberattacks?. Retrieved March 5, 2017.",
+          "source_name": "SmithSupplyChain"
+        },
+        {
+          "description": "CERT-UK. (2016, October 01). Cyber-security risks in the supply chain. Retrieved March 5, 2017.",
+          "source_name": "CERT-UKSupplyChain"
+        }
+      ],
+      "id": "attack-pattern--118535b4-fe38-443b-8623-efa33571db6c",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "people-information-gathering"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Identify supply chains",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
+      "x_mitre_difficulty_for_adversary": "No",
+      "x_mitre_difficulty_for_adversary_explanation": "Requires an intensive process to obtain the full picture.  It is possible to obtain basic information/some aspects via OSINT.  May be easier in certain industries where there are a limited number of suppliers (e.g., SCADA).",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

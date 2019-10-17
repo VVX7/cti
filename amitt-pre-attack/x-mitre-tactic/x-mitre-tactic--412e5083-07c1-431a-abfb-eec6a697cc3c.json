@@ -1,0 +1,27 @@
+{
+  "id": "bundle--dd05febd-0347-433e-86e7-17fbae937c91",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Priority definition direction consists of the process of collecting and assigning requirements for meeting Key Intelligence Topics (KIT) or Key Intelligence Questions (KIQ) as determined by leadership.",
+      "external_references": [
+        {
+          "external_id": "TA0013",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/tactics/TA0013.md"
+        }
+      ],
+      "id": "x-mitre-tactic--412e5083-07c1-431a-abfb-eec6a697cc3c",
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Priority Definition Direction",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "priority-definition-direction"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

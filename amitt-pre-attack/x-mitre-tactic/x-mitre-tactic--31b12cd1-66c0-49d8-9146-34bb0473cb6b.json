@@ -1,0 +1,27 @@
+{
+  "id": "bundle--4311ca40-71a0-477b-94dc-d9a7ae121811",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Establishing and maintaining infrastructure consists of building, purchasing, co-opting, and maintaining systems and services used to conduct cyber operations. An adversary will need to establish infrastructure used to communicate with and control assets used throughout the course of their operations.",
+      "external_references": [
+        {
+          "external_id": "TA0022",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/tactics/TA0022.md"
+        }
+      ],
+      "id": "x-mitre-tactic--31b12cd1-66c0-49d8-9146-34bb0473cb6b",
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Establish & Maintain Infrastructure",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "establish-&-maintain-infrastructure"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

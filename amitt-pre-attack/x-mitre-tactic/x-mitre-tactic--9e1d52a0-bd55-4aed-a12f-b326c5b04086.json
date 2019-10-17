@@ -1,0 +1,27 @@
+{
+  "id": "bundle--67faac91-b542-4dc1-8655-ee51e2b2e772",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "People weakness identification consists of identifying and analyzing weaknesses and vulnerabilities from the intelligence gathering phases which can be leveraged to gain access to target or intermediate target persons of interest or social trust relationships.",
+      "external_references": [
+        {
+          "external_id": "TA0019",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/tactics/TA0019.md"
+        }
+      ],
+      "id": "x-mitre-tactic--9e1d52a0-bd55-4aed-a12f-b326c5b04086",
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "People Weakness Identification",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "people-weakness-identification"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bundle--799c592f-5826-48eb-bfd3-46c01371476d",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "The use of credentials by an adversary with the intent to hide their true identity and/or portray them self as another person or entity.  An adversary may use misattributable credentials in an attack to convince a victim that credentials are legitimate and trustworthy when this is not actually the case. (Citation: FakeSSLCerts)",
+      "external_references": [
+        {
+          "external_id": "T1322",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1322.md"
+        },
+        {
+          "description": "Paul Mutton. (2014, February 12). Fake SSL certificates deployed across the internet. Retrieved March 1, 2017.",
+          "source_name": "FakeSSLCerts"
+        }
+      ],
+      "id": "attack-pattern--69f07171-aac1-4b2a-896b-7920ebb95711",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "adversary-opsec"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Misattributable credentials",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "Partial",
+      "x_mitre_detectable_by_common_defenses_explanation": "If a previous incident identified the credentials used by an adversary, defenders can potentially use these credentials to track the adversary through reuse of the same credentials.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "An adversary can easily create and use misattributable credentials to obtain servers, build environment, [https://aws.amazon.com AWS] accounts, etc.  Many service providers require some form of identifiable information such as a phone number or email address, but there are several avenues to acquire these consistent with the misattributable identity.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

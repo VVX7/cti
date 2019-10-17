@@ -1,0 +1,41 @@
+{
+  "id": "bundle--10b34f30-468d-4591-97e7-f298f295688c",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Domain Names are the human readable names used to represent one or more IP addresses. They can be purchased or, in some cases, acquired for free. (Citation: PWCSofacy2014)",
+      "external_references": [
+        {
+          "external_id": "T1328",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1328.md"
+        },
+        {
+          "description": "Tom Lancaster and Michael Yip. (2014, December 05). APT28: Sofacy? So-funny.. Retrieved March 6, 2017.",
+          "source_name": "PWCSofacy2014"
+        }
+      ],
+      "id": "attack-pattern--608da762-ad48-4c5c-bb95-79a957d69c78",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "establish-&-maintain-infrastructure"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Buy domain name",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "Yes",
+      "x_mitre_detectable_by_common_defenses_explanation": "This is by design captured in public registration logs.  Various tools and services exist to track/query/monitor domain name registration information.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Proliferation of DNS TLDs and registrars.  Adversary may choose domains that are similar to legitimate domains (aka \"domain typosquatting\" or homoglyphs).",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

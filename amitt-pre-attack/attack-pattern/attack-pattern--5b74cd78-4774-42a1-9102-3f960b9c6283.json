@@ -1,0 +1,41 @@
+{
+  "id": "bundle--57502e68-8e49-4542-8862-a8870e9ff243",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "As with legitimate development efforts, different skill sets may be required for different phases of an attack. The skills needed may be located in house, can be developed, or may need to be contracted out. (Citation: APT1)",
+      "external_references": [
+        {
+          "external_id": "T1348",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1348.md"
+        },
+        {
+          "description": "Mandiant. (n.d.). APT1: Exposing One of China’s Cyber Espionage Units. Retrieved March 5, 2017.",
+          "source_name": "APT1"
+        }
+      ],
+      "id": "attack-pattern--5b74cd78-4774-42a1-9102-3f960b9c6283",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "build-capabilities"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Identify resources required to build capabilities",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Recruitment is, by its nature, either clandestine or off the record.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Like target organizations, adversary organizations are competing to identify and hire top technical talent.  Training less technical staff is also a viable option.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bundle--a7408c17-980d-4dfc-9afa-efd92234bcec",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "An adversary may assess a target's operational security (OPSEC) practices in order to identify targeting options. A target may share different information in different settings or be more of less cautious in different environments. (Citation: Scasny2015) (Citation: EverstineAirStrikes)",
+      "external_references": [
+        {
+          "external_id": "T1296",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1296.md"
+        },
+        {
+          "description": "Gregory Scasny. (2015, September 14). Understanding Open Source Intelligence (OSINT) and its relationship to Identity Theft. Retrieved March 1, 2017.",
+          "source_name": "Scasny2015"
+        },
+        {
+          "description": "Brian Everstine. (2015, June 04). Carlisle: Air Force intel uses ISIS 'moron's' social media posts to target airstrikes. Retrieved March 9, 2017.",
+          "source_name": "EverstineAirStrikes"
+        }
+      ],
+      "id": "attack-pattern--3d218cee-d0b0-463d-876a-66a23bb721b3",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "people-weakness-identification"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Assess targeting options",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Defender does not have access to information stored outside of defenders scope or visibility (e.g., log data for Facebook is not easily accessible).  Defender has very infrequent visibility into an adversary's more detailed TTPs for developing people targets.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Information is out in the open for items that are available - part of this is ease of use for consumers to support the expected networking use case.  OSINT can provide many avenues to gather intel which contain weaknesses.  Developing and refining the methodology to exploit weak human targets has been done for years (e.g., spies).",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

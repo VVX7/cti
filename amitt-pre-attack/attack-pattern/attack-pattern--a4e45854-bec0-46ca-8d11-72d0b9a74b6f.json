@@ -1,0 +1,49 @@
+{
+  "id": "bundle--10e848c8-85c8-4b02-8318-8a3c34536587",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "A wide variety of cloud, virtual private services, hosting, compute, and storage solutions are available as 3rd party infrastructure services. These services could provide an adversary with another avenue of approach or compromise. (Citation: LUCKYCAT2012) (Citation: Schneier-cloud) (Citation: Computerworld-suppliers)",
+      "external_references": [
+        {
+          "external_id": "T1284",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1284.md"
+        },
+        {
+          "description": "Forward-Looking Threat Research Team. (2012). LUCKYCAT REDUX: Inside an APT Campaign with Multiple Targets in India and Japan. Retrieved March 1, 2017.",
+          "source_name": "LUCKYCAT2012"
+        },
+        {
+          "description": "Bruce Schneier. (2017, April 5). APT10 and Cloud Hopper. Retrieved May 9, 2017.",
+          "source_name": "Schneier-cloud"
+        },
+        {
+          "description": "Michael Kan. (2017, April 4). Chinese hackers go after third-party IT suppliers to steal data. Retrieved May 9, 2017.",
+          "source_name": "Computerworld-suppliers"
+        }
+      ],
+      "id": "attack-pattern--a4e45854-bec0-46ca-8d11-72d0b9a74b6f",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "organizational-information-gathering"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Determine 3rd party infrastructure services",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Adversary searches publicly available sources and may find this information on the 3rd party web site listing new customers/clients.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Press releases may reveal this information particularly when it is an expected cost savings or improvement for scalability/reliability.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

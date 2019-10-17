@@ -1,0 +1,41 @@
+{
+  "id": "bundle--64530ed0-336b-4fa9-b132-66c9eafbc29e",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "An adversary can attempt to identify web defensive services as [CloudFlare](https://www.cloudflare.com), [IPBan](https://github.com/jjxtra/Windows-IP-Ban-Service), and [Snort](https://www.snort.org). This may be done by passively detecting services, like [CloudFlare](https://www.cloudflare.com) routing, or actively, such as by purposefully tripping security defenses. (Citation: NMAP WAF NSE)",
+      "external_references": [
+        {
+          "external_id": "T1256",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1256.md"
+        },
+        {
+          "description": "Paulino Calderon. (n.d.). http-waf-detect. Retrieved April 2, 2017.",
+          "source_name": "NMAP WAF NSE"
+        }
+      ],
+      "id": "attack-pattern--3ff2e5e0-dd2c-4c41-9d3a-74d3fe0391fc",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "technical-information-gathering"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Identify web defensive services",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "Yes",
+      "x_mitre_detectable_by_common_defenses_explanation": "Active service detection may trigger an alert.  Passive service enumeration is not detected.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Adversary can passively detect services (e.g., [https://www.cloudflare.com/ CloudFlare] routing) or actively detect services (e.g., by purposefully tripping security defenses)",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

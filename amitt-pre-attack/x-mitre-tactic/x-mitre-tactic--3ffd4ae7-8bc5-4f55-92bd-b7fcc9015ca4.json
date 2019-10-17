@@ -1,0 +1,27 @@
+{
+  "id": "bundle--0125250f-e6ec-4ec2-98bb-2c94e9f779ea",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Priority definition planning consists of the process of determining the set of Key Intelligence Topics (KIT) or Key Intelligence Questions (KIQ) required for meeting key strategic, operational, or tactical goals.  Leadership outlines the priority definition (may be considered a goal) around which the adversary designs target selection and a plan to achieve.  An analyst may outline the priority definition when in the course of determining gaps in existing KITs or KIQs.",
+      "external_references": [
+        {
+          "external_id": "TA0012",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/tactics/TA0012.md"
+        }
+      ],
+      "id": "x-mitre-tactic--3ffd4ae7-8bc5-4f55-92bd-b7fcc9015ca4",
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Priority Definition Planning",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "priority-definition-planning"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

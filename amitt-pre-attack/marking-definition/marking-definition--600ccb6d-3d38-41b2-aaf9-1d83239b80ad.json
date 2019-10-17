@@ -1,0 +1,17 @@
+{
+  "id": "bundle--6ee5370e-b7c0-4bf8-9aa5-95e42a52deab",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "definition": {
+        "statement": "CC-BY-4.0 misinfosec project"
+      },
+      "definition_type": "statement",
+      "id": "marking-definition--600ccb6d-3d38-41b2-aaf9-1d83239b80ad",
+      "type": "marking-definition"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

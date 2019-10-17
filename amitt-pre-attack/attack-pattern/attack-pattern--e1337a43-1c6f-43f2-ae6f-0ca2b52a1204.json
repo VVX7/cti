@@ -1,0 +1,49 @@
+{
+  "id": "bundle--01c03b90-c794-41cd-a39f-1771b9b76830",
+  "objects": [
+    {
+      "created": "2019-10-16T21:31:07.170424",
+      "created_by_ref": "identity--b1544054-6df3-43e2-92ca-ba8a946c3987",
+      "description": "Configure and setup booter/stressor services, often intended for server stress testing, to enable denial of service attacks. (Citation: Krebs-Anna) (Citation: Krebs-Booter) (Citation: Krebs-Bazaar)",
+      "external_references": [
+        {
+          "external_id": "T1396",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/VVX7/amitt_framework/blob/master/techniques/T1396.md"
+        },
+        {
+          "description": "Brian Krebs. (2017, January 18). Who is Anna-Senpai, the Mirai Worm Author?. Retrieved May 15, 2017.",
+          "source_name": "Krebs-Anna"
+        },
+        {
+          "description": "Brian Krebs. (2016, October 27). Are the Days of “Booter” Services Numbered?. Retrieved May 15, 2017.",
+          "source_name": "Krebs-Booter"
+        },
+        {
+          "description": "Brian Krebs. (2016, October 31). Hackforums Shutters Booter Service Bazaar. Retrieved May 15, 2017.",
+          "source_name": "Krebs-Bazaar"
+        }
+      ],
+      "id": "attack-pattern--e1337a43-1c6f-43f2-ae6f-0ca2b52a1204",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-pre-attack",
+          "phase_name": "establish-&-maintain-infrastructure"
+        }
+      ],
+      "modified": "2019-10-16T21:31:07.170424",
+      "name": "Obtain booter/stressor subscription",
+      "object_marking_refs": [
+        "marking-definition--c9eba0e8-80a8-438a-bf1b-3b5dac93a340"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_detectable_by_common_defenses": "No",
+      "x_mitre_detectable_by_common_defenses_explanation": "Purchase of booster services is not observable; potentially can trace booster service used to origin of sale, yet not before attack is executed. Furthermore, subscription does not automatically mean foul intention.",
+      "x_mitre_difficulty_for_adversary": "Yes",
+      "x_mitre_difficulty_for_adversary_explanation": "Easily accessible and used to launch DDoS attacks by even novice Internet users, and can be purchased from providers for a nominal fee, some of which even accept credit cards and PayPal payments to do.",
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}
