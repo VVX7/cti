@@ -1,0 +1,27 @@
+{
+  "id": "bundle--c5958eba-5786-48d7-a8fb-5e880abd68e3",
+  "objects": [
+    {
+      "created": "2019-10-20T19:45:57.800419",
+      "created_by_ref": "identity--9cde8759-b834-48fe-8233-ddb867835ea6",
+      "description": "Keep incident 'alive', beyond the incident creators' efforts",
+      "external_references": [
+        {
+          "external_id": "TA11",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA11.md"
+        }
+      ],
+      "id": "x-mitre-tactic--ab2adeed-d80b-4fd4-9d77-015812648c4b",
+      "modified": "2019-10-20T19:45:57.800419",
+      "name": "Persistence",
+      "object_marking_refs": [
+        "marking-definition--2076ee4c-7b99-4e3b-8b82-b2b5bfcb13ea"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "persistence"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

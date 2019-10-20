@@ -1,0 +1,40 @@
+{
+  "id": "bundle--7601494e-0821-4c65-8727-35821b136358",
+  "objects": [
+    {
+      "created": "2019-10-20T19:45:57.800419",
+      "created_by_ref": "identity--9cde8759-b834-48fe-8233-ddb867835ea6",
+      "description": "Nimmo's \"4Ds of propaganda\": dismiss, distort, distract, dismay (MisinfosecWG added divide in 2019). Misinformation promotes an agenda by advancing narratives supportive of that agenda. This is most effective when the advanced narrative pre-dates the revelation of the specific misinformation content. But this is often not possible.",
+      "external_references": [
+        {
+          "external_id": "T0001",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0001.md"
+        }
+      ],
+      "id": "attack-pattern--f66df52e-2d14-468a-9c3d-b9a3776d8c2d",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "strategic-planning"
+        }
+      ],
+      "modified": "2019-10-20T19:45:57.800419",
+      "name": "5Ds (dismiss, distort, distract, dismay, divide)",
+      "object_marking_refs": [
+        "marking-definition--2076ee4c-7b99-4e3b-8b82-b2b5bfcb13ea"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bundle--95c4d6ff-1ba5-44cd-8da5-57a003f4390a",
+  "objects": [
+    {
+      "created": "2019-10-20T19:45:57.800419",
+      "id": "identity--e178f16c-aae0-4ab6-a8e5-0c40948d69df",
+      "identity_class": "organization",
+      "modified": "2019-10-20T19:45:57.800419",
+      "name": "misinfosec project",
+      "object_marking_refs": [
+        "marking-definition--2076ee4c-7b99-4e3b-8b82-b2b5bfcb13ea"
+      ],
+      "type": "identity"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

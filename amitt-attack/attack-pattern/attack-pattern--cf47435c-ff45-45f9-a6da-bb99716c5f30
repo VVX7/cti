@@ -1,0 +1,40 @@
+{
+  "id": "bundle--44ea18a2-91a0-45a9-816d-b18beeceb96c",
+  "objects": [
+    {
+      "created": "2019-10-20T19:45:57.800419",
+      "created_by_ref": "identity--9cde8759-b834-48fe-8233-ddb867835ea6",
+      "description": "Use LinkedIn as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0034",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0034.md"
+        }
+      ],
+      "id": "attack-pattern--cf47435c-ff45-45f9-a6da-bb99716c5f30",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "channel-selection"
+        }
+      ],
+      "modified": "2019-10-20T19:45:57.800419",
+      "name": "LinkedIn",
+      "object_marking_refs": [
+        "marking-definition--2076ee4c-7b99-4e3b-8b82-b2b5bfcb13ea"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

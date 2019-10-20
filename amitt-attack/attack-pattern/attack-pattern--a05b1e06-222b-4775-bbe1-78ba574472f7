@@ -1,0 +1,40 @@
+{
+  "id": "bundle--3437bb4a-9503-4a72-9895-9f358788713d",
+  "objects": [
+    {
+      "created": "2019-10-20T19:45:57.800419",
+      "created_by_ref": "identity--9cde8759-b834-48fe-8233-ddb867835ea6",
+      "description": "Intimidate, coerce, threaten critics/dissidents/journalists via trolling, doxing. Examples: Philippines, Maria Ressa and Rappler journalists targeted Duterte regime, lawsuits, trollings, banned from the presidential palace where press briefings take place; 2017 bot attack on five ProPublica Journalists.",
+      "external_references": [
+        {
+          "external_id": "T0048",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0048.md"
+        }
+      ],
+      "id": "attack-pattern--a05b1e06-222b-4775-bbe1-78ba574472f7",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exposure"
+        }
+      ],
+      "modified": "2019-10-20T19:45:57.800419",
+      "name": "Cow online opinion leaders",
+      "object_marking_refs": [
+        "marking-definition--2076ee4c-7b99-4e3b-8b82-b2b5bfcb13ea"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

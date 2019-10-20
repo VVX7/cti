@@ -1,0 +1,40 @@
+{
+  "id": "bundle--3fe0033d-d3de-4979-aa33-0a57dddabe2d",
+  "objects": [
+    {
+      "created": "2019-10-20T19:45:57.800419",
+      "created_by_ref": "identity--9cde8759-b834-48fe-8233-ddb867835ea6",
+      "description": "Play the long game can mean a couple of things:\n1.  To plan messaging and allow it to grow organically without conducting your own amplification.  This is methodical and slow and requires years for the message to take hold (e.g. China and its constant messaging that Taiwan and Hong Kong are part of one China).\n2.  To develop a series of seemingly disconnected messaging narratives that eventually combine into a new narrative.",
+      "external_references": [
+        {
+          "external_id": "T0059",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0059.md"
+        }
+      ],
+      "id": "attack-pattern--a782231e-2b61-48ba-9474-74a38a929626",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "persistence"
+        }
+      ],
+      "modified": "2019-10-20T19:45:57.800419",
+      "name": "Play the long game",
+      "object_marking_refs": [
+        "marking-definition--2076ee4c-7b99-4e3b-8b82-b2b5bfcb13ea"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

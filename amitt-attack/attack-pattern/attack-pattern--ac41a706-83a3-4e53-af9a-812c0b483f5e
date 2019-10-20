@@ -1,0 +1,40 @@
+{
+  "id": "bundle--f59032c7-bfb0-4ae4-a551-7498f236187e",
+  "objects": [
+    {
+      "created": "2019-10-20T19:45:57.800419",
+      "created_by_ref": "identity--9cde8759-b834-48fe-8233-ddb867835ea6",
+      "description": "Coordinate and promote real-world events across media platforms, e.g. rallies, protests, gatherings in support of incident narratives. Example: Facebook groups/pages coordinate/more divisive/polarizing groups and actvities into the public space. (Example) Mueller's report, highlights, the IRA organized political rallies in the U.S. using social media starting in 2015 and continued to coordinate rallies after the 2016 election",
+      "external_references": [
+        {
+          "external_id": "T0057",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0057.md"
+        }
+      ],
+      "id": "attack-pattern--ac41a706-83a3-4e53-af9a-812c0b483f5e",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "go-physical"
+        }
+      ],
+      "modified": "2019-10-20T19:45:57.800419",
+      "name": "Organise remote rallies and events",
+      "object_marking_refs": [
+        "marking-definition--2076ee4c-7b99-4e3b-8b82-b2b5bfcb13ea"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

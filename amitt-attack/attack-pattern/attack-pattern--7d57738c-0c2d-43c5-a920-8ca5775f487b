@@ -1,0 +1,40 @@
+{
+  "id": "bundle--c80fd1a7-08b2-4e7b-b88f-cc401c315889",
+  "objects": [
+    {
+      "created": "2019-10-20T19:45:57.800419",
+      "created_by_ref": "identity--9cde8759-b834-48fe-8233-ddb867835ea6",
+      "description": "Stories planted or promoted in computational propaganda operations often make use of experts fabricated from whole cloth, sometimes specifically for the story itself. For example, in the Jade Helm conspiracy theory promoted by SVR in 2015, a pair of experts--one of them naming himself a “Military Intelligence Analyst / Russian Regional CME” and the other a “Geopolitical Strategist, Journalist & Author”--pushed the story heavily on LinkedIn.",
+      "external_references": [
+        {
+          "external_id": "T0009",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0009.md"
+        }
+      ],
+      "id": "attack-pattern--7d57738c-0c2d-43c5-a920-8ca5775f487b",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "develop-people"
+        }
+      ],
+      "modified": "2019-10-20T19:45:57.800419",
+      "name": "Create fake experts",
+      "object_marking_refs": [
+        "marking-definition--2076ee4c-7b99-4e3b-8b82-b2b5bfcb13ea"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}
