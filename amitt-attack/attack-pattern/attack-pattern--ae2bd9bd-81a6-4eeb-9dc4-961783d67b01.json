@@ -1,0 +1,40 @@
+{
+  "id": "bundle--13e69569-c10e-404f-baa6-7e701c39b967",
+  "objects": [
+    {
+      "created": "2019-10-15T10:44:48.602080",
+      "created_by_ref": "identity--74c59f30-5f59-47cb-8546-c8c681ed77d6",
+      "description": "Use political influence or the power of state to stop critical social media comments. Government requested/driven content take downs (see Google Transperancy reports. (Example 20190 Singapore Protection from Online Falsehoods and Manipulation Bill would make it illegal to spread \"false statements of fact\" in Singapore, where that information is \"prejudicial\" to Singapore's security or \"public tranquility.\" Or India/New Delhi has cut off services to Facebook and Twitter in Kashmir 28 times in the past five years, and in 2016, access was blocked for five months -- on the grounds that these platforms were being used for anti-social and \"anti-national\" purposes.",
+      "external_references": [
+        {
+          "external_id": "T0047",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0047.md"
+        }
+      ],
+      "id": "attack-pattern--ae2bd9bd-81a6-4eeb-9dc4-961783d67b01",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exposure"
+        }
+      ],
+      "modified": "2019-10-15T10:44:48.602080",
+      "name": "Muzzle social media as a political force",
+      "object_marking_refs": [
+        "marking-definition--6ca019b4-0c61-487b-8759-3ee38677869b"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

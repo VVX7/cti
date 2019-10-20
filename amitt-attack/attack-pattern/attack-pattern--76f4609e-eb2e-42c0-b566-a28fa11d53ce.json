@@ -1,0 +1,40 @@
+{
+  "id": "bundle--d7b41a75-7d87-4daa-b049-882f3c121380",
+  "objects": [
+    {
+      "created": "2019-10-15T10:44:48.602080",
+      "created_by_ref": "identity--74c59f30-5f59-47cb-8546-c8c681ed77d6",
+      "description": "Create content/news/opinion web-sites to cross-post stories. Tertiary sites circulate and amplify narratives. Often these sites have no masthead, bylines or attribution. \n\nExamples of tertiary sites inculde Russia Insider, The Duran, geopolitica.ru, Mint Press News, Oriental Review, globalresearch.ca. \n\nExample (2019, Domestic news): Snopes reveals Star News Digital Media, Inc. may look like a media company that produces local news, but operates via undisclosed connections to political activism. \n\nExample (2018) FireEye reports on Iranian campaign that created between April 2018 and March 2019 sites used to spread inauthentic content from websites such as Liberty Front Press (LFP), US Journal, and Real Progressive Front during the US mid-terms.",
+      "external_references": [
+        {
+          "external_id": "T0052",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0052.md"
+        }
+      ],
+      "id": "attack-pattern--76f4609e-eb2e-42c0-b566-a28fa11d53ce",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exposure"
+        }
+      ],
+      "modified": "2019-10-15T10:44:48.602080",
+      "name": "Tertiary sites amplify news",
+      "object_marking_refs": [
+        "marking-definition--6ca019b4-0c61-487b-8759-3ee38677869b"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}
