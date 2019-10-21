@@ -1,0 +1,40 @@
+{
+  "id": "bundle--86ec08ac-a76a-4075-8b67-b5f525c21eb8",
+  "objects": [
+    {
+      "created": "2019-10-20T23:15:12.013769",
+      "created_by_ref": "identity--33cb9fd4-5596-470e-a1b4-dd4f72b21ba3",
+      "description": "Organize citizens around pro-state messaging. Paid or volunteer groups coordinated to push state propaganda (examples include 2016 Diba Facebook Expedition, coordinated to overcome China’s Great Firewall to flood the Facebook pages of Taiwanese politicians and news agencies with a pro-PRC message).",
+      "external_references": [
+        {
+          "external_id": "T0002",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0002.md"
+        }
+      ],
+      "id": "attack-pattern--c0394d85-a3f8-41ca-a481-bc1160ea71da",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "strategic-planning"
+        }
+      ],
+      "modified": "2019-10-20T23:15:12.013769",
+      "name": "Facilitate State Propaganda",
+      "object_marking_refs": [
+        "marking-definition--3133b61d-7d97-48d6-a248-1c34250cbee7"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

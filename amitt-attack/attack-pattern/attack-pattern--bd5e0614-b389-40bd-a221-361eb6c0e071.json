@@ -1,0 +1,39 @@
+{
+  "id": "bundle--4c153f29-16c6-41db-bdce-fd11c4c14dbb",
+  "objects": [
+    {
+      "created": "2019-10-20T23:16:59.041852",
+      "created_by_ref": "identity--e2071b34-f930-41a2-b53e-076e34e135bc",
+      "description": "Output information pollution (e.g. articles on an unreported false story/event) through channels controlled by or related to the incident creator. Examples include RT/Sputnik or antivax websites seeding stories.",
+      "external_references": [
+        {
+          "external_id": "T0056",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0056.md"
+        }
+      ],
+      "id": "attack-pattern--bd5e0614-b389-40bd-a221-361eb6c0e071",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exposure"
+        }
+      ],
+      "modified": "2019-10-20T23:16:59.041852",
+      "name": "Dedicated channels disseminate information pollution",
+      "object_marking_refs": [
+        "marking-definition--af16a721-d8b8-4986-b35a-1a68f2831bfd"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Cyber",
+          "Physical"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

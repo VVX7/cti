@@ -1,0 +1,40 @@
+{
+  "id": "bundle--eb97ddca-bd59-4643-8a6b-77cd2b1632ab",
+  "objects": [
+    {
+      "created": "2019-10-20T23:15:12.013769",
+      "created_by_ref": "identity--33cb9fd4-5596-470e-a1b4-dd4f72b21ba3",
+      "description": "Use Reddit as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0032",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0032.md"
+        }
+      ],
+      "id": "attack-pattern--4dc5edb4-f85c-4489-86f5-881acaef752a",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "channel-selection"
+        }
+      ],
+      "modified": "2019-10-20T23:15:12.013769",
+      "name": "Reddit",
+      "object_marking_refs": [
+        "marking-definition--3133b61d-7d97-48d6-a248-1c34250cbee7"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

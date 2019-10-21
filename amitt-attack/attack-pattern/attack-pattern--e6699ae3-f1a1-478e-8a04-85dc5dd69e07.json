@@ -1,0 +1,40 @@
+{
+  "id": "bundle--13d5e49e-64a0-4a93-a7f0-ed7130c3c915",
+  "objects": [
+    {
+      "created": "2019-10-20T23:15:12.013769",
+      "created_by_ref": "identity--33cb9fd4-5596-470e-a1b4-dd4f72b21ba3",
+      "description": "Deploy state-coordinated social media commenters and astroturfers. Both internal/domestic and external social media influence operations, popularized by China (50cent Army manage message inside the \"Great Firewall\") but also technique used by Chinese English-language social media influence operations are seeded by state-run media, which overwhelmingly present a positive, benign, and cooperative image of China. ",
+      "external_references": [
+        {
+          "external_id": "T0050",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0050.md"
+        }
+      ],
+      "id": "attack-pattern--e6699ae3-f1a1-478e-8a04-85dc5dd69e07",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exposure"
+        }
+      ],
+      "modified": "2019-10-20T23:15:12.013769",
+      "name": "Cheerleading domestic social media ops",
+      "object_marking_refs": [
+        "marking-definition--3133b61d-7d97-48d6-a248-1c34250cbee7"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

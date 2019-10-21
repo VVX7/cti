@@ -1,0 +1,27 @@
+{
+  "id": "bundle--45c714c0-3867-4b0b-a2f1-d8354f34276c",
+  "objects": [
+    {
+      "created": "2019-10-20T23:15:12.013769",
+      "created_by_ref": "identity--33cb9fd4-5596-470e-a1b4-dd4f72b21ba3",
+      "description": "Target very specific populations of people",
+      "external_references": [
+        {
+          "external_id": "TA05",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA05.md"
+        }
+      ],
+      "id": "x-mitre-tactic--7657cad9-88c2-4a7f-825c-11a334906b5c",
+      "modified": "2019-10-20T23:15:12.013769",
+      "name": "Microtargeting",
+      "object_marking_refs": [
+        "marking-definition--3133b61d-7d97-48d6-a248-1c34250cbee7"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "microtargeting"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

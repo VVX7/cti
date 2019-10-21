@@ -1,0 +1,27 @@
+{
+  "id": "bundle--de2fc2a6-73d4-4c43-9a9f-f32e062f3c55",
+  "objects": [
+    {
+      "created": "2019-10-20T23:16:59.041852",
+      "created_by_ref": "identity--e2071b34-f930-41a2-b53e-076e34e135bc",
+      "description": "Move incident into offline world",
+      "external_references": [
+        {
+          "external_id": "TA10",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA10.md"
+        }
+      ],
+      "id": "x-mitre-tactic--2c867a82-d6b5-40cb-b11f-f6eaa27c8ad1",
+      "modified": "2019-10-20T23:16:59.041852",
+      "name": "Go Physical",
+      "object_marking_refs": [
+        "marking-definition--af16a721-d8b8-4986-b35a-1a68f2831bfd"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "go-physical"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

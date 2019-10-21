@@ -1,0 +1,40 @@
+{
+  "id": "bundle--4f5ec76b-d2bd-408e-882e-be44dabdb506",
+  "objects": [
+    {
+      "created": "2019-10-20T23:15:12.013769",
+      "created_by_ref": "identity--33cb9fd4-5596-470e-a1b4-dd4f72b21ba3",
+      "description": "Direct messaging via encypted app is an increasing method of delivery. These messages are often automated and new delivery and storage methods make them anonymous, viral, and ephemeral. This is a diffucult space to monitor, but also a difficult space to build acclaim or notoriety.",
+      "external_references": [
+        {
+          "external_id": "T0043",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0043.md"
+        }
+      ],
+      "id": "attack-pattern--7525f69f-f7cd-45f7-8057-579f04e9a5ae",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "pump-priming"
+        }
+      ],
+      "modified": "2019-10-20T23:15:12.013769",
+      "name": "Use SMS/ WhatsApp/ Chat apps",
+      "object_marking_refs": [
+        "marking-definition--3133b61d-7d97-48d6-a248-1c34250cbee7"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

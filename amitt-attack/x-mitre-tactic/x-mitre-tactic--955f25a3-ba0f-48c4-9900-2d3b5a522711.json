@@ -1,0 +1,27 @@
+{
+  "id": "bundle--d89f4ea9-718f-4b6c-a936-cddbc6c2941d",
+  "objects": [
+    {
+      "created": "2019-10-20T23:15:12.013769",
+      "created_by_ref": "identity--33cb9fd4-5596-470e-a1b4-dd4f72b21ba3",
+      "description": "Release content to general public or push to larger population",
+      "external_references": [
+        {
+          "external_id": "TA09",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA09.md"
+        }
+      ],
+      "id": "x-mitre-tactic--955f25a3-ba0f-48c4-9900-2d3b5a522711",
+      "modified": "2019-10-20T23:15:12.013769",
+      "name": "Exposure",
+      "object_marking_refs": [
+        "marking-definition--3133b61d-7d97-48d6-a248-1c34250cbee7"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "exposure"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}
