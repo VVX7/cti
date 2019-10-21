@@ -1,0 +1,40 @@
+{
+  "id": "bundle--ad69cfad-c25f-4e3c-a4ae-d503520b9038",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Flooding and/or mobbing social media channels feeds and/or hashtag with excessive volume of content to control/shape online conversations and/or drown out opposing points of view. Bots and/or patriotic trolls are effective tools to acheive this effect. \n\nExample (2018): bots flood social media promoting messages which support Saudi Arabia with intent to cast doubt on allegations that the kingdom was involved in Khashoggi’s death.",
+      "external_references": [
+        {
+          "external_id": "T0049",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0049.md"
+        }
+      ],
+      "id": "attack-pattern--c0f1e7a5-a148-4bce-b793-5159b9def288",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exposure"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Flooding",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

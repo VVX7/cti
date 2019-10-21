@@ -1,0 +1,40 @@
+{
+  "id": "bundle--32c81df1-fa87-4522-b0a4-8b7e3730b350",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Create attention grabbing headlines (outrage, doubt, humor) required to drive traffic & engagement. (example 2016) “Pope Francis shocks world, endorses Donald Trump for president.” (example 2016) \"FBI director received millions from Clinton Foundation, his brother’s law firm does Clinton’s taxes”. This is a key asset",
+      "external_references": [
+        {
+          "external_id": "T0016",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0016.md"
+        }
+      ],
+      "id": "attack-pattern--7cdbfd43-1413-4048-8f37-a6ed895c09b2",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "microtargeting"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Clickbait",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

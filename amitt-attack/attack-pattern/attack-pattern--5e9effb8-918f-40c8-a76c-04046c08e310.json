@@ -1,0 +1,40 @@
+{
+  "id": "bundle--3387fc65-3ce1-460b-818f-c9dd5b8a62cd",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Use YouTube as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0031",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0031.md"
+        }
+      ],
+      "id": "attack-pattern--5e9effb8-918f-40c8-a76c-04046c08e310",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "channel-selection"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "YouTube",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

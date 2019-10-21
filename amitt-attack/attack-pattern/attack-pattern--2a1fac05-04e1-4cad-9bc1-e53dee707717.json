@@ -1,0 +1,40 @@
+{
+  "id": "bundle--4580e48d-f52a-486f-8bfc-56f1a20f6f0a",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Modern computational propaganda makes use of a cadre of imposter news sites spreading globally. These sites, sometimes motivated by concerns other than propaganda--for instance, click-based revenue--often have some superficial markers of authenticity, such as naming and site-design. But many can be quickly exposed with reference to their owenership, reporting history and adverstising details. A prominent case from the 2016 era was the _Denver Guardian_, which purported to be a local newspaper in Colorado and specialized in negative stories about Hillary Clinton.",
+      "external_references": [
+        {
+          "external_id": "T0008",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0008.md"
+        }
+      ],
+      "id": "attack-pattern--2a1fac05-04e1-4cad-9bc1-e53dee707717",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "develop-people"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Create fake or imposter news sites",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

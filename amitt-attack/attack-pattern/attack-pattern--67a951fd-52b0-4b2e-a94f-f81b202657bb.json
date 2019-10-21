@@ -1,0 +1,40 @@
+{
+  "id": "bundle--91d015b1-6e77-466a-b1bf-591cdf87694c",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Sell hats, t-shirts, flags and other branded content that's designed to be seen in the real world",
+      "external_references": [
+        {
+          "external_id": "T0061",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0061.md"
+        }
+      ],
+      "id": "attack-pattern--67a951fd-52b0-4b2e-a94f-f81b202657bb",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "go-physical"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Sell merchandising",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

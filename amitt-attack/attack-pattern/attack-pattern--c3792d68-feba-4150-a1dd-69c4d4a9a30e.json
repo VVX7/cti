@@ -1,0 +1,40 @@
+{
+  "id": "bundle--a267a52f-1b43-4845-ac83-3efc5cca68c0",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Use the dedicated hashtag for the incident (e.g. #PhosphorusDisaster)",
+      "external_references": [
+        {
+          "external_id": "T0055",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0055.md"
+        }
+      ],
+      "id": "attack-pattern--c3792d68-feba-4150-a1dd-69c4d4a9a30e",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exposure"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Use hashtag",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

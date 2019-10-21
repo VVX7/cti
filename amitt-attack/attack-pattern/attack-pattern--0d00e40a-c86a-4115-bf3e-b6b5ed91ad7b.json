@@ -1,0 +1,40 @@
+{
+  "id": "bundle--e9aa563b-5a35-426d-bdaf-7dc45683f21e",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "",
+      "external_references": [
+        {
+          "external_id": "T0044",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0044.md"
+        }
+      ],
+      "id": "attack-pattern--0d00e40a-c86a-4115-bf3e-b6b5ed91ad7b",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "pump-priming"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Seed distortions",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

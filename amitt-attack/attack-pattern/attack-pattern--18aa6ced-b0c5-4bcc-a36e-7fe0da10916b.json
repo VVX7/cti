@@ -1,0 +1,40 @@
+{
+  "id": "bundle--1b307a5c-65e3-4814-a4b5-9db0914014e6",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Hack or take over legimate accounts to distribute misinformation or damaging content. Examples include Syrian Electronic Army (2013) series of false tweets from a hijacked Associated Press Twitter account claiming that President Barack Obama had been injured in a series of explosions near the White House. The false report caused a temporary plunge of 143 points on the Dow Jones Industrial Average.",
+      "external_references": [
+        {
+          "external_id": "T0011",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0011.md"
+        }
+      ],
+      "id": "attack-pattern--18aa6ced-b0c5-4bcc-a36e-7fe0da10916b",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "develop-networks"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Hijack legitimate account",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

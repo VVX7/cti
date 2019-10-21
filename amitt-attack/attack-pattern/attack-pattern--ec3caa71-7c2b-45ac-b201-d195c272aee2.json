@@ -1,0 +1,40 @@
+{
+  "id": "bundle--13a0fad0-cf08-4546-ba24-f759eee9dbfe",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Generate revenue through online funding campaigns. e.g. Gather data, advance credible persona via Gofundme; Patreon; or via fake website connecting via PayPal or Stripe. (Example 2016) #VaccinateUS Gofundme campaigns to pay for Targetted facebook ads (Larry Cook, targetting Washington State mothers, $1,776 to boost posts over 9 months).",
+      "external_references": [
+        {
+          "external_id": "T0014",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0014.md"
+        }
+      ],
+      "id": "attack-pattern--ec3caa71-7c2b-45ac-b201-d195c272aee2",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "develop-networks"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Create funding campaigns",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

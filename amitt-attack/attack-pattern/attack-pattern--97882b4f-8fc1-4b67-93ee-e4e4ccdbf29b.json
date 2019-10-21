@@ -1,0 +1,40 @@
+{
+  "id": "bundle--ec45f50f-e1b8-40ed-bed9-db49c9108fbb",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Create fake academic research. Example: fake social science research is often aimed at hot-button social issues such as gender, race and sexuality. Fake science research can target Climate Science debate or pseudoscience like anti-vaxx",
+      "external_references": [
+        {
+          "external_id": "T0026",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0026.md"
+        }
+      ],
+      "id": "attack-pattern--97882b4f-8fc1-4b67-93ee-e4e4ccdbf29b",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "develop-content"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Create fake research",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

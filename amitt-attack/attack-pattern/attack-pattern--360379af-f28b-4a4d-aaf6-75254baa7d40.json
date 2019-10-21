@@ -1,0 +1,40 @@
+{
+  "id": "bundle--1a5e2933-3a08-4135-8683-b44db39f59c8",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "Recon/research to identify \"the source of power that provides moral or physical strength, freedom of action, or will to act.\" Thus, the center of gravity is usually seen as the \"source of strength\". Includes demographic and network analysis of communities",
+      "external_references": [
+        {
+          "external_id": "T0005",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0005.md"
+        }
+      ],
+      "id": "attack-pattern--360379af-f28b-4a4d-aaf6-75254baa7d40",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "objective-planning"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Center of Gravity Analysis",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "bundle--6c0bf2bc-8c57-411f-85c6-9e495d05ed37",
+  "objects": [
+    {
+      "created": "2019-10-20T19:57:50.137492",
+      "created_by_ref": "identity--9cd8a044-bb3e-41ed-b078-0ac96e61ebf4",
+      "description": "The promotion of beneficial master narratives is perhaps the most effective method for achieving long-term strategic narrative dominance. From a \"whole of society\" perpective the promotion of the society's core master narratives should occupy a central strategic role. From a misinformation campaign / cognitive security perpectve the tactics around master narratives center more precisely on the day-to-day promotion and reinforcement of this messaging. In other words, beneficial, high-coverage master narratives are a central strategic goal and their promotion consitutes an ongoing tactical struggle carried out at a whole-of-society level. \n\nBy way of example, major powers are promoting master narratives such as:\n* \"Huawei is detetmined to build trustworthy networks\"\n* \"Russia is the victim of bullying by NATO powers\"\n* \"USA is guided by its founding principles of liberty and egalitarianism\"\n\nTactically, their promotion covers a broad spectrum of activities both on- and offline.",
+      "external_references": [
+        {
+          "external_id": "T0006",
+          "source_name": "mitre-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0006.md"
+        }
+      ],
+      "id": "attack-pattern--51513f8f-433c-4395-8741-f8d28ed25981",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "objective-planning"
+        }
+      ],
+      "modified": "2019-10-20T19:57:50.137492",
+      "name": "Create Master Narratives",
+      "object_marking_refs": [
+        "marking-definition--5a8e2f93-f8dd-432b-b7cf-163646b21348"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_platforms": [
+        [
+          "Linux",
+          "macOS",
+          "Windows"
+        ]
+      ],
+      "x_mitre_version": "1.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}
