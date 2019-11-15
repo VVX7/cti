@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4dca405c-a5fd-4865-8bc3-5108b37df66f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--53a3c70d-785f-44f6-890c-c549a8d61353",
+            "created_by_ref": "identity--4728e5be-4756-49f7-81b1-4fa0b2d01ca8",
+            "created": "2019-11-15T12:28:07.747Z",
+            "modified": "2019-11-15T12:28:07.747Z",
+            "name": "Twitter trolls amplify and manipulate",
+            "description": "Use trolls to amplify narratives and/or manipulate narratives. Fake profiles/sockpuppets operating to support individuals/narratives from the entire political spectrum (left/right binary). Operating with increased emphasis on promoting local content and promoting real Twitter users generating their own, often divisive political content, as it's easier to amplify existing content than create new/original content. Trolls operate where ever there's a socially divisive issue (issues that can/are be politicized) e.g. BlackLivesMatter or MeToo",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0053.md",
+                    "external_id": "T0053"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--9e7c30b0-436a-4024-9993-9149c032f74a"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

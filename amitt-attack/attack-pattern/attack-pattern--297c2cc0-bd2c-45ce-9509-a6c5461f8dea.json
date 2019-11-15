@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--46cd7e8c-8957-44f5-a77b-56878a6f5039",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--297c2cc0-bd2c-45ce-9509-a6c5461f8dea",
+            "created_by_ref": "identity--4728e5be-4756-49f7-81b1-4fa0b2d01ca8",
+            "created": "2019-11-15T12:28:07.747Z",
+            "modified": "2019-11-15T12:28:07.747Z",
+            "name": "Tertiary sites amplify news",
+            "description": "Create content/news/opinion web-sites to cross-post stories. Tertiary sites circulate and amplify narratives. Often these sites have no masthead, bylines or attribution. \n\nExamples of tertiary sites include Russia Insider, The Duran, geopolitica.ru, Mint Press News, Oriental Review, globalresearch.ca. Examples: (2019, Domestic news): Snopes reveals Star News Digital Media, Inc. may look like a media company that produces local news, but operates via undisclosed connections to political activism. (2018) FireEye reports on Iranian campaign that created between April 2018 and March 2019 sites used to spread inauthentic content from websites such as Liberty Front Press (LFP), US Journal, and Real Progressive Front during the 2018 US mid-terms.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0052.md",
+                    "external_id": "T0052"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--9e7c30b0-436a-4024-9993-9149c032f74a"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

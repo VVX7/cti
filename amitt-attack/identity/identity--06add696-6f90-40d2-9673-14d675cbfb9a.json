@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbc92c77-6a0d-4f5c-93a1-a39b233d516f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--06add696-6f90-40d2-9673-14d675cbfb9a",
+            "created": "2019-11-15T07:28:07.823Z",
+            "modified": "2019-11-15T12:28:07.823Z",
+            "name": "Armenia",
+            "description": "Armenia",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

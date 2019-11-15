@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--87cbad64-fcf3-4235-a2db-5f174c1954ba",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--a5fe875f-b0e4-4f8b-968e-952651fbc3d1",
+            "created_by_ref": "identity--4728e5be-4756-49f7-81b1-4fa0b2d01ca8",
+            "created": "2019-11-15T12:28:07.734Z",
+            "modified": "2019-11-15T12:28:07.734Z",
+            "name": "Trial content",
+            "description": "Iteratively test incident performance (messages, content etc), e.g. A/B test headline/content enagagement metrics; website and/or funding campaign conversion rates",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0020.md",
+                    "external_id": "T0020"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--9e7c30b0-436a-4024-9993-9149c032f74a"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

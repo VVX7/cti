@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f5d705b1-c072-46db-bbba-4d164a81b990",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--433e14e3-9ff7-4444-ab87-ee17675c7e90",
+            "created": "2019-11-15T07:28:07.821Z",
+            "modified": "2019-11-15T12:28:07.821Z",
+            "name": "Germany",
+            "description": "Germany",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--ab1cc319-9a36-4816-9e30-9d74fb5a0534",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--4701c88f-6d02-477b-9fd0-292a7ee7f3e2",
+            "created_by_ref": "identity--4728e5be-4756-49f7-81b1-4fa0b2d01ca8",
+            "created": "2019-11-15T12:28:07.747Z",
+            "modified": "2019-11-15T12:28:07.747Z",
+            "name": "Twitter bots amplify",
+            "description": "Use bots to amplify narratives above algorithm thresholds. Bots are automated/programmed profiles designed to amplify content (ie: automatically retweet or like) and give appearance it's more \"popular\" than it is. They can operate as a network, to function in a coordinated/orchestrated manner. In some cases (more so now) they are an inexpensive/disposable assets used for minimal deployment as bot detection tools improve and platforms are more responsive.(example 2019) #TrudeauMustGo ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0054.md",
+                    "external_id": "T0054"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--9e7c30b0-436a-4024-9993-9149c032f74a"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

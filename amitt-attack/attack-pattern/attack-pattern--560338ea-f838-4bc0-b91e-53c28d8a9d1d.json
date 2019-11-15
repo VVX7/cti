@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc48e0ba-177e-4a3a-8baa-ceadcfd3754b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--560338ea-f838-4bc0-b91e-53c28d8a9d1d",
+            "created_by_ref": "identity--4728e5be-4756-49f7-81b1-4fa0b2d01ca8",
+            "created": "2019-11-15T12:28:07.742Z",
+            "modified": "2019-11-15T12:28:07.742Z",
+            "name": "Deny involvement",
+            "description": "Without \"smoking gun\" proof (and even with proof), incident creator can or will deny involvement. This technique also leverages the attacker advantages outlined in T0040 \"Demand unsurmountable proof\", specifically the asymmetric disadvantage for truth-tellers in a \"firehose of misinformation\" environment.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0041.md",
+                    "external_id": "T0041"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--9e7c30b0-436a-4024-9993-9149c032f74a"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

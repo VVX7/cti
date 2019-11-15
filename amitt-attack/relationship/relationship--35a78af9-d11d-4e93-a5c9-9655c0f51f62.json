@@ -1,0 +1,16 @@
+{
+    "type": "bundle",
+    "id": "bundle--ea5f099a-cf03-4689-b732-d45ddbfb678b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--35a78af9-d11d-4e93-a5c9-9655c0f51f62",
+            "created": "2019-11-15T12:28:07.832Z",
+            "modified": "2019-11-15T12:28:07.832Z",
+            "relationship_type": "uses",
+            "source_ref": "x-amitt-incident--35b0bdae-8256-43c0-b0cd-86c35fdb6f91",
+            "target_ref": "attack-pattern--0877ab3d-26a5-477d-92b7-06f151eabbb8"
+        }
+    ]
+}

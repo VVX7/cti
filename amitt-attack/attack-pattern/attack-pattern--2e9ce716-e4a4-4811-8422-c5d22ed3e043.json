@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--c1f6d9ee-8029-4a96-8afd-108354a312c0",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--2e9ce716-e4a4-4811-8422-c5d22ed3e043",
+            "created_by_ref": "identity--4728e5be-4756-49f7-81b1-4fa0b2d01ca8",
+            "created": "2019-11-15T12:28:07.740Z",
+            "modified": "2019-11-15T12:28:07.740Z",
+            "name": "Pinterest",
+            "description": "Use Pinterest as a narrative dissemination channel",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0035.md",
+                    "external_id": "T0035"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--9e7c30b0-436a-4024-9993-9149c032f74a"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

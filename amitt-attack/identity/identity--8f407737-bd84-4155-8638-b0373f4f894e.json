@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cee5452d-e197-4670-8287-d363527f1eaa",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--8f407737-bd84-4155-8638-b0373f4f894e",
+            "created": "2019-11-15T07:28:07.820Z",
+            "modified": "2019-11-15T12:28:07.820Z",
+            "name": "Ukraine",
+            "description": "Ukraine",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

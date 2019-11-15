@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--447badf3-5d24-4e45-ba1f-b23c39214578",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--51f790d9-2ab8-42fc-8c40-a2ad44719db9",
+            "created": "2019-11-15T07:28:07.824Z",
+            "modified": "2019-11-15T12:28:07.824Z",
+            "name": "Mexico",
+            "description": "Mexico",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

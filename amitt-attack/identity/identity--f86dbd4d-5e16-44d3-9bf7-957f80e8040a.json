@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf18849d-ebe0-4398-9e6b-c0d7dc8d1b67",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f86dbd4d-5e16-44d3-9bf7-957f80e8040a",
+            "created": "2019-11-15T07:28:07.819Z",
+            "modified": "2019-11-15T12:28:07.819Z",
+            "name": "Netherlands",
+            "description": "Netherlands",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

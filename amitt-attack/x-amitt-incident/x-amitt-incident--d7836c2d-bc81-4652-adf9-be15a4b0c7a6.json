@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--1225aaf6-2b14-4c9f-beb9-67f21d8bef88",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--d7836c2d-bc81-4652-adf9-be15a4b0c7a6",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-15T12:28:07.767Z",
+            "name": "#syriahoax",
+            "description": "",
+            "first_seen": "2017-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Medium",
+                    "url": "https://medium.com/dfrlab/how-the-alt-right-brought-syriahoax-to-america-47745118d1c9",
+                    "external_id": "Medium: altright syriahox to america"
+                }
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}
