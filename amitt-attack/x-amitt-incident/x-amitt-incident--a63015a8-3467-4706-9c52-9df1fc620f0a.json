@@ -1,0 +1,29 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc5d49f3-1914-4e79-ab57-e1d0d19634c4",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--a63015a8-3467-4706-9c52-9df1fc620f0a",
+            "created": "2019-03-20T00:00:00.000Z",
+            "modified": "2019-11-20T12:48:07.991Z",
+            "name": "China Muslims",
+            "description": "",
+            "first_seen": "2018-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "CTV News",
+                    "url": "https://www.ctvnews.ca/world/china-says-foreign-concerns-over-muslim-rights-unwarranted-1.4178042",
+                    "external_id": "CTV News: foreign concerns over muslim rights"
+                },
+                {
+                    "source_name": "Reuters",
+                    "url": "https://www.reuters.com/investigates/special-report/muslims-camps-china/",
+                    "external_id": "Reuters: muslim camps china"
+                }
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

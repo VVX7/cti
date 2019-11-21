@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fff602b4-5f9c-49e4-8278-eec5a2df92f5",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--d66cb540-21bc-4a53-9879-1ddee4baf3b3",
+            "created": "2019-11-20T07:48:08.008Z",
+            "modified": "2019-11-20T12:48:08.008Z",
+            "name": "Brazil",
+            "description": "Brazil",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

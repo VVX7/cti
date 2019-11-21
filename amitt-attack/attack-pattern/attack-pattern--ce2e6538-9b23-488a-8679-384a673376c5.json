@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--c7fa2d1c-ec78-4eaa-8660-b0351fa2fe54",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--ce2e6538-9b23-488a-8679-384a673376c5",
+            "created_by_ref": "identity--253c4ce2-9b85-4316-ac0e-eb76a4b6f1c8",
+            "created": "2019-11-20T12:48:07.971Z",
+            "modified": "2019-11-20T12:48:07.971Z",
+            "name": "Search Engine Optimization",
+            "description": "Manipulate content engagement metrics (ie: Reddit & Twitter) to influence/impact news search results (e.g. Google), also elevates RT & Sputnik headline into Google news alert emails. aka \"Black-hat SEO\" ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0046.md",
+                    "external_id": "T0046"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--00f7ef1e-54c7-4bef-9891-ab7300212595"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

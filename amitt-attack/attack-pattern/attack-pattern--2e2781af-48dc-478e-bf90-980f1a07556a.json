@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--ca327dc7-9ccd-46ed-b00c-6cdc082da663",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--2e2781af-48dc-478e-bf90-980f1a07556a",
+            "created_by_ref": "identity--253c4ce2-9b85-4316-ac0e-eb76a4b6f1c8",
+            "created": "2019-11-20T12:48:07.961Z",
+            "modified": "2019-11-20T12:48:07.961Z",
+            "name": "Leverage Existing Narratives",
+            "description": "Use or adapt existing narrative themes, where narratives are the baseline stories of a target audience. Narratives form the bedrock of our worldviews. New information is understood through a process firmly grounded in this bedrock. If new information is not consitent with the prevailing narratives of an audience, it will be ignored. Effective campaigns will frame their misinformation in the context of these narratives. Highly effective campaigns will make extensive use of audience-appropriate archetypes and meta-narratives throughout their content creation and amplifiction practices. Examples include midwesterners are generous, Russia is under attack from outside.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "strategic-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0003.md",
+                    "external_id": "T0003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--00f7ef1e-54c7-4bef-9891-ab7300212595"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

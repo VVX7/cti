@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e5ac3cfd-aef0-4ecc-a2cf-641271feab89",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--3adc491b-ce64-449e-a0c4-8cf5635ee8ca",
+            "created": "2019-11-20T07:48:08.010Z",
+            "modified": "2019-11-20T12:48:08.010Z",
+            "name": "Uknown",
+            "description": "Uknown",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

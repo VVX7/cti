@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1711cd0e-9ec4-4754-a9c2-dbc019d43e57",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--5b4b7fd1-a4d9-4a68-bc79-059bc6d0fee8",
+            "created": "2019-11-20T07:48:08.007Z",
+            "modified": "2019-11-20T12:48:08.007Z",
+            "name": "Serbia",
+            "description": "Serbia",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

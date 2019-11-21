@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--f23cf102-72d7-438c-9175-1dc2c4814637",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--0c5379b4-18a7-47fb-a825-8be0f6a1c4ee",
+            "created_by_ref": "identity--253c4ce2-9b85-4316-ac0e-eb76a4b6f1c8",
+            "created": "2019-11-20T12:48:07.965Z",
+            "modified": "2019-11-20T12:48:07.965Z",
+            "name": "Generate information pollution",
+            "description": "Flood social channels; drive traffic/engagement to all assets; create aura/sense/perception of pervasiveness/consensus (for or against or both simultaneously) of an issue or topic. \"Nothing is true, but everything is possible.\" Akin to astroturfing campaign.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0019.md",
+                    "external_id": "T0019"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--00f7ef1e-54c7-4bef-9891-ab7300212595"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

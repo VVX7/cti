@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--25ae1321-29ab-4348-8cba-c7ca6d248897",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--f39da429-1577-4dcc-a849-89064e5357c0",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-20T12:48:07.980Z",
+            "name": "Columbian Chemicals",
+            "description": "Early Russian (IRA) \u201cfake news\u201d stories. Completely fabricated; very short lifespan. ",
+            "first_seen": "2014-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Columbian_Chemicals_Plant_explosion_hoax",
+                    "external_id": "Wikipedia: Columbian Chemicals"
+                }
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

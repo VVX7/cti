@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--96e7525d-ccb8-48f6-9764-56128af90f8d",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--a0eccbda-50a8-48dc-84c4-3c48fcef76e2",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-20T12:48:07.982Z",
+            "name": "MacronTiphaine",
+            "description": "Far-right trolls on 4chan and Twitter spreading misinformation about French candidate Macron and spur support for rival candidate Le Pen.",
+            "first_seen": "2017-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "BuzzFeed",
+                    "url": "https://www.buzzfeednews.com/article/ryanhatesthis/heres-how-far-right-trolls-are-spreading-hoaxes-about",
+                    "external_id": "BuzzFeed: far right trolls are spreading hoaxes"
+                }
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--48dd4a76-583a-4c63-af3e-0d8db7b7225b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--bf4f40ca-92df-4913-bf82-fc65ee97e74e",
+            "created": "2019-11-20T07:48:08.008Z",
+            "modified": "2019-11-20T12:48:08.008Z",
+            "name": "EU",
+            "description": "EU",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

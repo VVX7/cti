@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--df760a0f-14b9-42d1-b8d4-72f2c4174482",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--822b0771-2869-454e-a2f4-8c343c369577",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-20T12:48:07.985Z",
+            "name": "LastJedi",
+            "description": "",
+            "first_seen": "2018-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Slate",
+                    "url": "https://slate.com/culture/2018/10/last-jedi-star-wars-twitter-backlash-russia-trolls.html",
+                    "external_id": "Slate: last jedi twitter backlash"
+                }
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

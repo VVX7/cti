@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--4a309d08-4b31-4b8e-9c31-fccbf9558e67",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--e71c3a4e-6043-4e3f-9ba2-1d3e694eb873",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-20T12:48:07.979Z",
+            "name": "#Macrongate",
+            "description": "amplified document dump failed because France was prepared for it.",
+            "first_seen": "2017-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Nieman Lab",
+                    "url": "http://www.niemanlab.org/2018/09/how-france-beat-back-information-manipulation-and-how-other-democracies-might-do-the-same/",
+                    "external_id": "Nieman Lab 2018-09"
+                }
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

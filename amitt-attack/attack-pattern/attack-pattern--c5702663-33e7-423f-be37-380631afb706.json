@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--70b61eb0-a364-41fe-a109-0ab3b7258e0e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--c5702663-33e7-423f-be37-380631afb706",
+            "created_by_ref": "identity--253c4ce2-9b85-4316-ac0e-eb76a4b6f1c8",
+            "created": "2019-11-20T12:48:07.962Z",
+            "modified": "2019-11-20T12:48:07.962Z",
+            "name": "Create Master Narratives",
+            "description": "The promotion of beneficial master narratives is perhaps the most effective method for achieving long-term strategic narrative dominance. From a \"whole of society\" perpective the promotion of the society's core master narratives should occupy a central strategic role. From a misinformation campaign / cognitive security perpectve the tactics around master narratives center more precisely on the day-to-day promotion and reinforcement of this messaging. In other words, beneficial, high-coverage master narratives are a central strategic goal and their promotion consitutes an ongoing tactical struggle carried out at a whole-of-society level. \n\nBy way of example, major powers are promoting master narratives such as:\n* \"Huawei is detetmined to build trustworthy networks\"\n* \"Russia is the victim of bullying by NATO powers\"\n* \"USA is guided by its founding principles of liberty and egalitarianism\"\n\nTactically, their promotion covers a broad spectrum of activities both on- and offline.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "objective-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0006.md",
+                    "external_id": "T0006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--00f7ef1e-54c7-4bef-9891-ab7300212595"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

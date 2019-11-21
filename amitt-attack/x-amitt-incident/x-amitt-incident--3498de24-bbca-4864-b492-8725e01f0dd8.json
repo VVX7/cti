@@ -1,0 +1,29 @@
+{
+    "type": "bundle",
+    "id": "bundle--ba16bda7-176e-49b0-8423-b9a0eb681c23",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--3498de24-bbca-4864-b492-8725e01f0dd8",
+            "created": "2019-03-20T00:00:00.000Z",
+            "modified": "2019-11-20T12:48:07.989Z",
+            "name": "Skripal",
+            "description": "On 4 March 2018, Sergei Skripal, a former Russian military officer and double agent for the UK's intelligence services, and his daughter Yulia Skripal were poisoned in Salisbury, England, with a Novichok nerve agent known as A-234, according to official UK sources and the Organisation for the Prohibition of Chemical Weapons (OPCW)",
+            "first_seen": "2018-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Bellingcat",
+                    "url": "https://www.bellingcat.com/tag/skripal/",
+                    "external_id": "Bellingcat: skripal"
+                },
+                {
+                    "source_name": "euvsdisinfo.eu",
+                    "url": "https://euvsdisinfo.eu/conspiracy-mania-marks-one-year-anniversary-of-the-skripal-poisoning/",
+                    "external_id": "euvsdisinfo.eu: conspiracy mania skripal"
+                }
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

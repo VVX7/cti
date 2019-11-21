@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--6fca8f3b-466b-4fc2-ae80-6dfe9b998a61",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--29640e43-119f-450a-b13e-026e35474e2b",
+            "created_by_ref": "identity--253c4ce2-9b85-4316-ac0e-eb76a4b6f1c8",
+            "created": "2019-11-20T12:48:07.969Z",
+            "modified": "2019-11-20T12:48:07.969Z",
+            "name": "WhatsApp",
+            "description": "Use WhatsApp as a narrative dissemination channel",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0036.md",
+                    "external_id": "T0036"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--00f7ef1e-54c7-4bef-9891-ab7300212595"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}
