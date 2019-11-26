@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--7c1d596c-ee43-4a58-b684-0b2f499e69d8",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--da86c29e-c8a1-4a5e-89e6-6778e1b6844b",
+            "created_by_ref": "identity--f5c74ba6-a0ad-4a49-8855-f481812308a5",
+            "created": "2019-11-26T16:50:31.733Z",
+            "modified": "2019-11-26T16:50:31.733Z",
+            "name": "Develop People",
+            "description": "Develop online and offline users and agents, including automated personas",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA03.md",
+                    "external_id": "TA03"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--c1c78979-5319-44a5-a44e-0e3bd833015b"
+            ],
+            "x_mitre_shortname": "develop-people"
+        }
+    ]
+}

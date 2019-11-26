@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--103d1ca3-924e-479c-83dd-e42de6f96d68",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--c6f5104c-2fa6-4f86-9208-7cf92867863e",
+            "created_by_ref": "identity--f5c74ba6-a0ad-4a49-8855-f481812308a5",
+            "created": "2019-11-26T16:50:31.740Z",
+            "modified": "2019-11-26T16:50:31.740Z",
+            "name": "Promote online funding",
+            "description": "Drive traffic/engagement to funding campaign sites; helps provide measurable metrics to assess conversion rates",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "microtargeting"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0017.md",
+                    "external_id": "T0017"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--c1c78979-5319-44a5-a44e-0e3bd833015b"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--d122066c-4ad4-4339-8ba3-56eeab8e3fc1",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--d5fc381a-efce-455c-8721-916a75bfe847",
+            "created_by_ref": "identity--f5c74ba6-a0ad-4a49-8855-f481812308a5",
+            "created": "2019-11-26T16:50:31.750Z",
+            "modified": "2019-11-26T16:50:31.750Z",
+            "name": "Fabricate social media comment",
+            "description": "Use government-paid social media commenters, astroturfers, chat bots (programmed to reply to specific key words/hashtags) influence online conversations, product reviews, web-site comment forums. (2017 example) the FCC was inundated with nearly 22 million public comments on net neutrality (many from fake accounts)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0051.md",
+                    "external_id": "T0051"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--c1c78979-5319-44a5-a44e-0e3bd833015b"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

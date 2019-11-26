@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6487445-006a-447a-9ef6-b3b8bc59cddc",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--6e450c12-1bf7-47bf-9f3d-7f8984049234",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-26T16:50:31.765Z",
+            "name": "antivax",
+            "description": "",
+            "first_seen": "2018-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "AJPH",
+                    "url": "https://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.2018.304567",
+                    "external_id": "AJPH 2018 304567"
+                }
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

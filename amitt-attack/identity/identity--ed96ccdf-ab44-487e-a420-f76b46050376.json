@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c7b61b15-cc9d-44cf-9bad-e4f1e846c219",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--ed96ccdf-ab44-487e-a420-f76b46050376",
+            "created": "2019-11-26T11:50:31.795Z",
+            "modified": "2019-11-26T16:50:31.795Z",
+            "name": "Iran",
+            "description": "Iran",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

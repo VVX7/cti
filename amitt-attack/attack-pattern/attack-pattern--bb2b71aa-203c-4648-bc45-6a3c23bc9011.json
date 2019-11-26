@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--772d5403-b7ef-4be7-8361-72b349b61333",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--bb2b71aa-203c-4648-bc45-6a3c23bc9011",
+            "created_by_ref": "identity--f5c74ba6-a0ad-4a49-8855-f481812308a5",
+            "created": "2019-11-26T16:50:31.737Z",
+            "modified": "2019-11-26T16:50:31.737Z",
+            "name": "Competing Narratives",
+            "description": "Advance competing narratives connected to same issue ie: on one hand deny incident while at same time expresses dismiss. MH17 (example) \"Russian Foreign Ministry again claimed that \u201cabsolutely groundless accusations are put forward against the Russian side, which are aimed at discrediting Russia in the eyes of the international community\" (deny); \"The Dutch MH17 investigation is biased, anti-Russian and factually inaccurate\" (dismiss). \n\nSuppressing or discouraging narratives already spreading requires an alternative. The most simple set of narrative techniques in response would be the construction and promotion of contradictory alternatives centered on denial, deflection, dismissal, counter-charges, excessive standards of proof, bias in prohibition or enforcement, and so on.\n\nThese competing narratives allow loyalists cover, but are less compelling to opponents and fence-sitters than campaigns built around existing narratives or highly explanatory master narratives. Competing narratives, as such, are especially useful in the \"firehose of misinformation\" approach.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "strategic-planning"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0004.md",
+                    "external_id": "T0004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--c1c78979-5319-44a5-a44e-0e3bd833015b"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

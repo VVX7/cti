@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--2ee29a11-2909-4948-b289-90f154d3fbf7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--6b8f747b-ee3f-4ca7-8df7-6167320ccad3",
+            "created_by_ref": "identity--f5c74ba6-a0ad-4a49-8855-f481812308a5",
+            "created": "2019-11-26T16:50:31.740Z",
+            "modified": "2019-11-26T16:50:31.740Z",
+            "name": "Create hashtag",
+            "description": "Many incident-based campaigns will create a hashtag to promote their fabricated event (e.g. #ColumbianChemicals to promote a fake story about a chemical spill in Louisiana). \n\nCreating a hashtag for an incident can have two important effects:\n1. Create a perception of reality around an event. Certainly only \"real\" events would be discussed in a hashtag. After all, the event has a name!\n2. Publicize the story more widely through trending lists and search behavior \n\nAsset needed to direct/control/manage \"conversation\" connected to launching new incident/campaign with new hashtag for applicable social media sites ie: Twitter, LinkedIn)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0015.md",
+                    "external_id": "T0015"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--c1c78979-5319-44a5-a44e-0e3bd833015b"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

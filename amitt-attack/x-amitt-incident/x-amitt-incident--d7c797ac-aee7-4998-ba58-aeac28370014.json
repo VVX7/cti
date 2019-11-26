@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--eb8327e0-d1a1-4fa0-aa0d-3007e5f1926d",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--d7c797ac-aee7-4998-ba58-aeac28370014",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-26T16:50:31.762Z",
+            "name": "3000 tanks",
+            "description": "",
+            "first_seen": "2017-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Medium",
+                    "url": "https://medium.com/@DFRLab/three-thousand-fake-tanks-575410c4f64d",
+                    "external_id": "Medium: three thousand fake tanks"
+                }
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

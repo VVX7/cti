@@ -1,0 +1,29 @@
+{
+    "type": "bundle",
+    "id": "bundle--76e55090-0e74-4143-91d7-8046d9285678",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--c9e74283-4982-4df5-80de-7dc8609715af",
+            "created": "2019-03-20T00:00:00.000Z",
+            "modified": "2019-11-26T16:50:31.772Z",
+            "name": "China Huawei CFO Arrest",
+            "description": "Dec. 1: Canadian authorities arrest Huawei's chief financial officer Meng Wanzhou at Vancouver\u2019s airport while she is en route from Hong Kong to Mexico, after an extradition request from the Americans. The news becomes public on Dec. 5.  Dec. 7: In Vancouver, Meng appears in court, where allegations of fraud are laid out. The U.S. alleges Meng misled American banks in a bid to get around American sanctions on Iran. \nGeopolitically complex issue combines US/China trade; Security concerns/issues related to Huawei\u2019s 5G wireless equipment; diplomacy between Canada & China as Chinese subsequently arrest Canadian citizens.",
+            "first_seen": "2018-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "The Atlantic",
+                    "url": "https://www.theatlantic.com/international/archive/2019/03/czech-zeman-babis-huawei-xi-trump/584158/",
+                    "external_id": "The Atlantic: czech zeman babis"
+                },
+                {
+                    "source_name": "The Globe and Mail",
+                    "url": "https://www.theglobeandmail.com/politics/article-chinas-envoy-says-white-supremacy-played-part-in-canadas-arrest-of/",
+                    "external_id": "The Globe and Mail: chinas envoy white supremacy"
+                }
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--21f6e477-40c5-4c53-a2b5-450f4564fce0",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--807a8cf3-9e51-4aac-bdbc-32b49210de45",
+            "created_by_ref": "identity--f5c74ba6-a0ad-4a49-8855-f481812308a5",
+            "created": "2019-11-26T16:50:31.743Z",
+            "modified": "2019-11-26T16:50:31.743Z",
+            "name": "Adapt existing narratives",
+            "description": "Adapting existing narratives to current operational goals is the tactical sweet-spot for an effective misinformation campaign. Leveraging existing narratives is not only more effective, it requires substantially less resourcing, as the promotion of new master narratives operates on a much larger scale, both time and scope. Fluid, dynamic & often interchangeable key master narratives can be (\"The morally corrupt West\") adapted to divisive (LGBT propaganda) or to distort (individuals working as CIA operatives). For Western audiences, different but equally powerful framings are available, such as \"USA has a fraught history in race relations, especially in criminal justice areas.\"",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0027.md",
+                    "external_id": "T0027"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--c1c78979-5319-44a5-a44e-0e3bd833015b"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

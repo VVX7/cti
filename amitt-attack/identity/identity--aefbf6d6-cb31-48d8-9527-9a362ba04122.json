@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--07ac9868-76ac-4dcf-94bc-58ffb8fe88bd",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--aefbf6d6-cb31-48d8-9527-9a362ba04122",
+            "created": "2019-11-26T11:50:31.792Z",
+            "modified": "2019-11-26T16:50:31.792Z",
+            "name": "Taiwan",
+            "description": "Taiwan",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

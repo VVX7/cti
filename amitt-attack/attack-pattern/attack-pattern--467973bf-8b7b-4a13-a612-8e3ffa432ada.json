@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f9809b9-23d1-4781-ba60-2fc0074d874b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--467973bf-8b7b-4a13-a612-8e3ffa432ada",
+            "created_by_ref": "identity--f5c74ba6-a0ad-4a49-8855-f481812308a5",
+            "created": "2019-11-26T16:50:31.739Z",
+            "modified": "2019-11-26T16:50:31.739Z",
+            "name": "Use concealment",
+            "description": "Use anonymous social media profiles. Examples include page or group administrators, masked \"whois\" website directory data, no bylines connected to news article, no masthead connect to news websites. \n\nExample is 2016 @TEN_GOP profile where the actual Tennessee Republican Party tried unsuccessfully for months to get Twitter to shut it down, and 2019 Endless Mayfly is an Iran-aligned network of inauthentic personas and social media accounts that spreads falsehoods and amplifies narratives critical of Saudi Arabia, the United States, and Israel.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0012.md",
+                    "external_id": "T0012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--c1c78979-5319-44a5-a44e-0e3bd833015b"
+            ],
+            "x_mitre_platforms": [
+                "cyber",
+                "physical"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}
