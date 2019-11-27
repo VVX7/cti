@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--4035c070-e63c-4d48-9795-3e61fd951abf",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--79ce4c6b-7421-4007-b0a4-6097c0d7fa34",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-11-27T15:52:51.585Z",
+            "modified": "2019-11-27T15:52:51.585Z",
+            "name": "Play the long game",
+            "description": "Play the long game can mean a couple of things:\n1.  To plan messaging and allow it to grow organically without conducting your own amplification.  This is methodical and slow and requires years for the message to take hold (e.g. China and its constant messaging that Taiwan and Hong Kong are part of one China).\n2.  To develop a series of seemingly disconnected messaging narratives that eventually combine into a new\u00a0narrative.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0059.md",
+                    "external_id": "T0059"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_mitre_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

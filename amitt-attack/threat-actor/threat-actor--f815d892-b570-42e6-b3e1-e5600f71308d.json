@@ -1,0 +1,19 @@
+{
+    "type": "bundle",
+    "id": "bundle--7e523081-ba9c-4b51-8a60-2bfd0d158279",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "threat-actor",
+            "id": "threat-actor--f815d892-b570-42e6-b3e1-e5600f71308d",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-27T15:52:51.620Z",
+            "name": "Internet Research Agency",
+            "description": "Russia backed IRA.",
+            "labels": [
+                "nation-state"
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

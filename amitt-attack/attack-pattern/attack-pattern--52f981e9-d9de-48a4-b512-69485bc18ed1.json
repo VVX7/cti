@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--7ea132fd-fef2-4242-b863-11254f7cca0e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--52f981e9-d9de-48a4-b512-69485bc18ed1",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-11-27T15:52:51.571Z",
+            "modified": "2019-11-27T15:52:51.571Z",
+            "name": "Create fake Social Media Profiles / Pages / Groups",
+            "description": "Create key social engineering assets needed to amplify content, manipulate algorithms, fool public and/or specific incident/campaign targets. \n\nComputational propaganda depends substantially on false perceptions of credibility and acceptance. By creating fake users and groups with a variety of interests and commitments, attackers can ensure that their messages both come from trusted sources and appear more widely adopted than they actually are. \n\nExamples: Ukraine elections (2019) circumvent Facebook\u2019s new safeguards by paying Ukrainian citizens to give a Russian agent access to their personal pages. EU Elections (2019) Avaaz reported more than 500 suspicious pages and groups to Facebook related to the three-month investigation of Facebook disinformation networks in Europe. Mueller report (2016) The IRA was able to reach up to 126 million Americans on Facebook via a mixture of fraudulent accounts, groups, and advertisements, the report says. Twitter accounts it created were portrayed as real American voices by major news outlets. It was even able to hold real-life rallies, mobilizing hundreds of people at a time in major cities like Philadelphia and Miami. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-people"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0007.md",
+                    "external_id": "T0007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_mitre_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

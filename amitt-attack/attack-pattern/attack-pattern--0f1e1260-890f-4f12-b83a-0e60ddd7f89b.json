@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--ab5fc248-a71c-4bf4-ab5f-5b0685a1eea1",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--0f1e1260-890f-4f12-b83a-0e60ddd7f89b",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-11-27T15:52:51.582Z",
+            "modified": "2019-11-27T15:52:51.582Z",
+            "name": "Muzzle social media as a political force",
+            "description": "Use political influence or the power of state to stop critical social media comments. Government requested/driven content take downs (see Google Transperancy reports. (Example 20190 Singapore Protection from Online Falsehoods and Manipulation Bill would make it illegal to spread \"false statements of fact\" in Singapore, where that information is \"prejudicial\" to Singapore's security or \"public tranquility.\" Or India/New Delhi has cut off services to Facebook and Twitter in Kashmir 28 times in the past five years, and in 2016, access was blocked for five months -- on the grounds that these platforms were being used for anti-social and \"anti-national\" purposes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0047.md",
+                    "external_id": "T0047"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_mitre_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

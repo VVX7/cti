@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--dc081360-5900-4b2c-bd31-1964b66b8c33",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "incident",
+            "id": "incident--5c86cbe0-7858-4c91-a67c-122b578a2de2",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-27T15:52:51.594Z",
+            "name": "ChinaSmog",
+            "description": "",
+            "first_seen": "2011-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "CJR",
+                    "url": "https://www.cjr.org/innovations/memes-pollution-censorship-china-beijing.php",
+                    "external_id": "CJR: memes pollution censorship"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

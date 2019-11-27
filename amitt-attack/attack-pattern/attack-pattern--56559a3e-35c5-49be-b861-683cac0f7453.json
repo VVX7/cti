@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ed91eae-6ca1-4312-aa6a-cff96bdc2765",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--56559a3e-35c5-49be-b861-683cac0f7453",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-11-27T15:52:51.581Z",
+            "modified": "2019-11-27T15:52:51.581Z",
+            "name": "Seed distortions",
+            "description": "Incident creators often try a wide variety of messages in the early hours surrounding an incident or event in order to give a misleading account or impression. \n\nExamples: (2019) China formally arrests Canadians Spavor and Kovrig, accuses them of spying (in retaliation to detention of Hauwei CFO). (2018) The Russian ministry of defence put out a press release, claiming that they had intelligence Syrian rebel forces were about to gas their own people in Idlib province as part of a \u201cfalse flag\u201d operation to frame the Syrian government.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0044.md",
+                    "external_id": "T0044"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_mitre_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--d809a4ac-bced-426d-acd5-4a23e9fd0276",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "incident",
+            "id": "incident--24bf88d0-d8ae-4c22-a90f-57f819fed28b",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-27T15:52:51.601Z",
+            "name": "DibaFacebookExpedition",
+            "description": "In the Expedition, Diba engaged in a highly organized cyber-attack of a Taiwanese political leader. On January 20, 2016 (the day of President Tsai Ing-wen\u2019s inauguration) featuring the posting of an overwhelming number of social media comments in support of a PRC-sanctioned message. Netizens from one of the largest discussion forums in China, known as Diba, coordinated to overcome China\u2019s Great Firewall to flood the Facebook pages of Taiwanese  politicians and news agencies with a pro-PRC message, a cyberattack referred to as the \u201cDiba Expedition to Facebook.\u201d \n\nUnique for taking place outside of the Chinese Internet system, both transgressing technical and political norms while exposing their actions to an international audience. In spite of the transgressive nature of the action, \u201cDiba Expedition\u201d was highly praised by Chinese official media, in contrast to comparable activities in the past that lacked its explicit pro-government ideology. Yet\u2014reflecting the complexity of Diba\u2019s relationship with the PRC government\u2014the Expedition was shut down after a few days.",
+            "first_seen": "2016-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "illinois.edu",
+                    "url": "https://www.ideals.illinois.edu/handle/2142/96746",
+                    "external_id": "illinois.edu: 96746"
+                },
+                {
+                    "source_name": "qz.com: chinese trolls attack taiwanese independance",
+                    "url": "https://qz.com/598812/an-army-of-chinese-trolls-has-jumped-the-great-firewall-to-attack-taiwanese-independence-on-facebook/",
+                    "external_id": "qz.com"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

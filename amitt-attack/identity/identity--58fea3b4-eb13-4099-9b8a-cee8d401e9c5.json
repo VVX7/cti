@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--68c4328f-4f8d-4194-b3f8-758c70714252",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--58fea3b4-eb13-4099-9b8a-cee8d401e9c5",
+            "created": "2019-11-27T10:52:51.631Z",
+            "modified": "2019-11-27T15:52:51.631Z",
+            "name": "Philippines",
+            "description": "Philippines",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

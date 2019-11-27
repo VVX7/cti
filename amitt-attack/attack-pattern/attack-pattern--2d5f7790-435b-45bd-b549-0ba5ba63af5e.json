@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b85e45f-3745-4987-9867-5cf02549f788",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--2d5f7790-435b-45bd-b549-0ba5ba63af5e",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-11-27T15:52:51.584Z",
+            "modified": "2019-11-27T15:52:51.584Z",
+            "name": "Use hashtag",
+            "description": "Use a dedicated hashtag for the incident (e.g. #PhosphorusDisaster) - either create a campaign/incident specific hashtag, or take over an existing hashtag.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0055.md",
+                    "external_id": "T0055"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_mitre_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

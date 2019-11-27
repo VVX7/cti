@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--08588d2d-fee1-4a67-9576-8539d7646909",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--fa4253dd-b533-4993-8c68-5d64ccab352a",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-11-27T15:52:51.566Z",
+            "modified": "2019-11-27T15:52:51.566Z",
+            "name": "Objective Planning",
+            "description": "Objectives should be clearly defined, measurable, and achievable. Achieving objectives ties execution of tactical tasks to reaching the desired end state. There are four primary considerations:\n- Each desired effect should link directly to one or more objectives\n- The effect should be measurable\n- The objective statement should not specify the way and means of accomplishment\n- The effect should be distinguishable from the objective it supports as a condition for success, not as another objective or task.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA02.md",
+                    "external_id": "TA02"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_mitre_shortname": "objective-planning"
+        }
+    ]
+}

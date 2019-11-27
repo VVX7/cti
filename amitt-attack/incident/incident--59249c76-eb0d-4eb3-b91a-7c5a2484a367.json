@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ec5a08ed-8af1-4e8a-a19e-9eb9396a6c95",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "incident",
+            "id": "incident--59249c76-eb0d-4eb3-b91a-7c5a2484a367",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-03-20T00:00:00.000Z",
+            "modified": "2019-11-27T15:52:51.606Z",
+            "name": "Sea of Azov",
+            "description": "An international incident occurred on 25 November 2018 when the Russian Federal Security Service (FSB) coast guard fired upon and captured three Ukrainian Navy vessels attempting to pass from the Black Sea into the Sea of Azov through the Kerch Strait on their way to the port of Mariupol. In 2014, Russia had annexed the nearby Crimean Peninsula, which is dominantly internationally recognised as Ukrainian territory. It later constructed the Crimean Bridge across the strait. Under a 2003 treaty, the strait and the Azov Sea are intended to be the shared territorial waters of both countries, and freely accessible.\nThe Russian Federal Security Service (FSB), which is also responsible for border protection, claims that the ships illegally entered Russian waters. The FSB alleges that crews did not comply with demands to stop. In the scuffle, a Russian border patrol ship rammed and damaged a Ukrainian Navy tugboat. Russian forces later seized all three Ukrainian ships, confiscating them for violating Russia's border. Six Ukrainian navy soldiers were injured, the Ukrainian navy reported. ",
+            "first_seen": "2018-01-01T00:00:00Z",
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

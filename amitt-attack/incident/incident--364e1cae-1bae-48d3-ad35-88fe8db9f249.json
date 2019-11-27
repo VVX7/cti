@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--c14f0ba9-57db-409f-9eb5-8803817adc18",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "incident",
+            "id": "incident--364e1cae-1bae-48d3-ad35-88fe8db9f249",
+            "created_by_ref": "identity--45546c9c-d1b2-44bc-bd1c-3fd503bfcb69",
+            "created": "2019-03-20T00:00:00.000Z",
+            "modified": "2019-11-27T15:52:51.608Z",
+            "name": "Mexico Election",
+            "description": "",
+            "first_seen": "2018-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "smh.com.au",
+                    "url": "https://www.smh.com.au/world/north-america/misinformation-seeded-by-bots-and-trolls-invades-mexico-s-election-20180502-p4zctx.html",
+                    "external_id": "smh.com.au:misinformation seeded by bots and trolls"
+                },
+                {
+                    "source_name": "Medium",
+                    "url": "https://medium.com/dfrlab/electionwatch-russian-bots-in-mexico-46003fcab4",
+                    "external_id": "Medium: election watch russian bots"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--082d1140-2efa-4f58-9929-7ea83f72a9f7"
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

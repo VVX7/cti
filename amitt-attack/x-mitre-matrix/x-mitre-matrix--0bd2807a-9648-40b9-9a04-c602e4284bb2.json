@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--987a76b7-81a2-41ed-8f48-c963f7d13095",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-matrix",
+            "id": "x-mitre-matrix--0bd2807a-9648-40b9-9a04-c602e4284bb2",
+            "created": "2019-11-27T15:52:51.586Z",
+            "modified": "2019-11-27T15:52:51.586Z",
+            "name": "AMITT Misinformation Framework",
+            "description": "Adversarial Misinformation and Influence Tactics and Techniques",
+            "tactic_refs": [
+                "x-mitre-tactic--753524c6-6eb5-4964-b125-dae7f31bc500",
+                "x-mitre-tactic--fa4253dd-b533-4993-8c68-5d64ccab352a",
+                "x-mitre-tactic--f119f681-95d5-4fb5-8889-fbda4f415347",
+                "x-mitre-tactic--7e2af906-117c-4ff2-80e2-9e6b442fe3c1",
+                "x-mitre-tactic--e3a233b8-a5fb-4532-b3e6-b4eb290b1c93",
+                "x-mitre-tactic--74615136-2633-4d66-856e-c67448f801b3",
+                "x-mitre-tactic--f43fa57c-eeb1-4a0d-92a4-16363041da7c",
+                "x-mitre-tactic--77e67356-d86e-4367-b3f4-822d481cf09e",
+                "x-mitre-tactic--57cee877-a3e1-4748-b91d-96d6132b69fc",
+                "x-mitre-tactic--8a190aca-7806-44f3-ab91-8bb278a1971b",
+                "x-mitre-tactic--00c24a89-885c-4d63-9a1a-d9f4f4e4bfcb",
+                "x-mitre-tactic--09080246-b585-4440-8e27-4b3b99b75b8a"
+            ],
+            "external_references": [
+                {
+                    "source_name": "amitt-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework",
+                    "external_id": "amitt-attack"
+                }
+            ]
+        }
+    ]
+}
