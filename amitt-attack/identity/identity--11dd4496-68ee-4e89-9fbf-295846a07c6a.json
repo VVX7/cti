@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3d02ef3c-e01c-4fb9-b60e-2f98542bbd4a",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--11dd4496-68ee-4e89-9fbf-295846a07c6a",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-30T02:23:21.200Z",
+            "name": "China",
+            "description": "China",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": "OII"
+        }
+    ]
+}

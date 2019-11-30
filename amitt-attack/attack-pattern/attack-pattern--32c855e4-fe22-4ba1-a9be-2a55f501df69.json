@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--f03ed8c6-0b7d-44a7-b9d1-ea1f1801f416",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--32c855e4-fe22-4ba1-a9be-2a55f501df69",
+            "created_by_ref": "identity--d739f041-b59c-42ae-b917-844e3b99808e",
+            "created": "2019-11-30T02:23:21.154Z",
+            "modified": "2019-11-30T02:23:21.154Z",
+            "name": "Search Engine Optimization",
+            "description": "Manipulate content engagement metrics (ie: Reddit & Twitter) to influence/impact news search results (e.g. Google), also elevates RT & Sputnik headline into Google news alert emails. aka \"Black-hat SEO\" ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0046.md",
+                    "external_id": "T0046"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3387ae0a-743b-4383-a264-18be80fdda6d"
+            ],
+            "x_mitre_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

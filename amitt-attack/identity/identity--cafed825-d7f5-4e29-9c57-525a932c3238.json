@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf6c8cf8-752f-44e2-b865-525cf53334b6",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--cafed825-d7f5-4e29-9c57-525a932c3238",
+            "created": "2019-11-29T21:23:21.201Z",
+            "modified": "2019-11-30T02:23:21.201Z",
+            "name": "Syria",
+            "description": "Syria",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

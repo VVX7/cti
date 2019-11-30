@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--56572e7c-de6a-4a11-9db0-819ffbd972d5",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--0304c062-4e17-41b6-a70e-a3c5809104c4",
+            "created": "2019-11-29T21:23:21.201Z",
+            "modified": "2019-11-30T02:23:21.201Z",
+            "name": "World",
+            "description": "World",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

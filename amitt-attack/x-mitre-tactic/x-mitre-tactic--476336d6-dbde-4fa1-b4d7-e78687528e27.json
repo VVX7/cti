@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e2cb5ee-ff7e-46be-8694-038fac19416b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--476336d6-dbde-4fa1-b4d7-e78687528e27",
+            "created_by_ref": "identity--d739f041-b59c-42ae-b917-844e3b99808e",
+            "created": "2019-11-30T02:23:21.139Z",
+            "modified": "2019-11-30T02:23:21.139Z",
+            "name": "Develop Networks",
+            "description": "Develop online and offline communities and transmission methods and cultivate assets and unwitting agents",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA04.md",
+                    "external_id": "TA04"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3387ae0a-743b-4383-a264-18be80fdda6d"
+            ],
+            "x_mitre_shortname": "develop-networks"
+        }
+    ]
+}

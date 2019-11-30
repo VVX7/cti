@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--49270900-782a-4d6e-9204-3518b3234577",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--8a8fea28-1eda-471b-a313-9781897ee126",
+            "created_by_ref": "identity--d739f041-b59c-42ae-b917-844e3b99808e",
+            "created": "2019-11-30T02:23:21.159Z",
+            "modified": "2019-11-30T02:23:21.159Z",
+            "name": "Sell merchandising",
+            "description": "Sell hats, t-shirts, flags and other branded content that's designed to be seen in the real world",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "go-physical"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0061.md",
+                    "external_id": "T0061"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3387ae0a-743b-4383-a264-18be80fdda6d"
+            ],
+            "x_mitre_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

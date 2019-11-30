@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--aacf1135-11d4-4c89-a1ab-1ff5117d3a33",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--fcd1052c-401b-4a79-b6fa-921821cb6d02",
+            "created_by_ref": "identity--d739f041-b59c-42ae-b917-844e3b99808e",
+            "created": "2019-11-30T02:23:21.154Z",
+            "modified": "2019-11-30T02:23:21.154Z",
+            "name": "Use fake experts",
+            "description": "Use the fake experts that were set up in T0009. Pseudo-experts are disposable assets that often appear once and then disappear. Give \"credility\" to misinformation. Take advantage of credential bias",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0045.md",
+                    "external_id": "T0045"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3387ae0a-743b-4383-a264-18be80fdda6d"
+            ],
+            "x_mitre_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

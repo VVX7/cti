@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--3cd94509-d662-40bb-b3f0-c020a1cb670f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "campaign",
+            "id": "campaign--b528ac96-cbf6-42af-8361-c82462b4b299",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-30T02:23:21.187Z",
+            "name": "Brazilelections",
+            "description": "Bot activity in Brazil elections",
+            "first_seen": "2014-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "oii.ox.ac.uk",
+                    "url": "https://blogs.oii.ox.ac.uk/politicalbots/wp-content/uploads/sites/89/2017/06/Comprop-Brazil-1.pdf",
+                    "external_id": "oii.ox.ac.uk: comprop brazil"
+                }
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

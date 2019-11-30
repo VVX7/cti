@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--2d8e8f40-76c7-45ca-bdd9-b9c689876502",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-opencti-incident",
+            "id": "x-opencti-incident--baaeb514-3f54-4124-89ac-a071ca3b3d0d",
+            "created_by_ref": "identity--d739f041-b59c-42ae-b917-844e3b99808e",
+            "created": "2019-03-20T00:00:00.000Z",
+            "modified": "2019-11-30T02:23:21.179Z",
+            "name": "White Helmets: Chemical Weapons",
+            "description": "On 7 April 2018, a high number of civilians were killed in the besieged Syrian city of Douma, with evidence pointing towards another chemical attack by the regime, according to the EU. Subsequent to this event, a series of images \"prove\" that the White Helmets \"staged\" the chemical attack in Syria.",
+            "first_seen": "2017-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Atlantic Council",
+                    "url": "http://www.publications.atlanticcouncil.org/breakingghouta/disinformation-2/\n",
+                    "external_id": "Atlantic Council: breaking ghouta disinformation 2"
+                },
+                {
+                    "source_name": "Bellingcat",
+                    "url": "https://www.bellingcat.com/news/mena/2018/12/18/chemical-weapons-and-absurdity-the-disinformation-campaign-against-the-white-helmets/\n",
+                    "external_id": "Bellingcat 2018-12-18"
+                },
+                {
+                    "source_name": "NY Books",
+                    "url": "https://www.nybooks.com/daily/2018/10/16/why-assad-and-russia-target-the-white-helmets/",
+                    "external_id": "NY Books 2018-10-16"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3387ae0a-743b-4383-a264-18be80fdda6d"
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

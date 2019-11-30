@@ -1,0 +1,16 @@
+{
+    "type": "bundle",
+    "id": "bundle--aa4b1c60-6d06-48a1-9e87-f1ef2d69ffd7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--42e5c7db-b230-4614-8f0a-87bc4228f8b2",
+            "created": "2019-11-30T02:23:21.223Z",
+            "modified": "2019-11-30T02:23:21.223Z",
+            "relationship_type": "uses",
+            "source_ref": "threat-actor--9158161b-a572-4539-9ade-b0616211c358",
+            "target_ref": "attack-pattern--ab808863-8188-456f-b7a7-8fb580147b7b"
+        }
+    ]
+}

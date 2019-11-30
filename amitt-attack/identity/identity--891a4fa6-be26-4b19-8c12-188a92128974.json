@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e98cef5-8307-4311-be8b-263d76dda415",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--891a4fa6-be26-4b19-8c12-188a92128974",
+            "created": "2019-11-29T21:23:21.204Z",
+            "modified": "2019-11-30T02:23:21.204Z",
+            "name": "Myanmar",
+            "description": "Myanmar",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--695f41f6-c636-4a80-93c2-a6a1abe3ef6d",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "campaign",
+            "id": "campaign--64ad45ac-70d3-498b-9f1e-1a85600f0895",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-30T02:23:21.186Z",
+            "name": "US presidential elections",
+            "description": "Make Clinton look bad or unpopular, and Trump look good over a long period, to change individuals\u2019 voting intentions. ",
+            "first_seen": "2016-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "DNI",
+                    "url": "https://www.dni.gov/files/documents/ICA_2017_01.pdf",
+                    "external_id": "DNI: ICA 2017 01"
+                }
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

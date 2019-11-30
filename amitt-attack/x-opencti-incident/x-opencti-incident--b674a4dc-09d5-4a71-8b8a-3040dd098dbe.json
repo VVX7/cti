@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c62810d-1dbd-471e-961a-17700ad83ae0",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-opencti-incident",
+            "id": "x-opencti-incident--b674a4dc-09d5-4a71-8b8a-3040dd098dbe",
+            "created_by_ref": "identity--d739f041-b59c-42ae-b917-844e3b99808e",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-30T02:23:21.167Z",
+            "name": "FranceBlacktivists",
+            "description": "",
+            "first_seen": "2014-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Medium",
+                    "url": "https://medium.com/dfrlab/trolltracker-glimpse-into-a-french-operation-f78dcae78924",
+                    "external_id": "Medium: trolltracker glimpse"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3387ae0a-743b-4383-a264-18be80fdda6d"
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

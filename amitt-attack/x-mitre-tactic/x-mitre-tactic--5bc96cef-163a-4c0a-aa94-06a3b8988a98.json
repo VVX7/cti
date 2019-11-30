@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--1ec0483c-be94-45db-b6d5-119185379eb3",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--5bc96cef-163a-4c0a-aa94-06a3b8988a98",
+            "created_by_ref": "identity--d739f041-b59c-42ae-b917-844e3b99808e",
+            "created": "2019-11-30T02:23:21.138Z",
+            "modified": "2019-11-30T02:23:21.138Z",
+            "name": "Strategic Planning",
+            "description": "Defining the desired end state that is the set of required conditions that defines achievement of all objectives.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA01.md",
+                    "external_id": "TA01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3387ae0a-743b-4383-a264-18be80fdda6d"
+            ],
+            "x_mitre_shortname": "strategic-planning"
+        }
+    ]
+}

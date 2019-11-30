@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--98f7858a-1ab2-4943-acb0-04cb03f4f21e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--8e5955f1-8728-47e6-8b9b-a7448e908c52",
+            "created": "2019-11-29T21:23:21.201Z",
+            "modified": "2019-11-30T02:23:21.201Z",
+            "name": "France",
+            "description": "France",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

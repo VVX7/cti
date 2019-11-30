@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c31db02-5a35-466c-bae8-bafda08c7e72",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-opencti-incident",
+            "id": "x-opencti-incident--a65db686-c651-4546-9fa2-7af1ffc3469d",
+            "created_by_ref": "identity--d739f041-b59c-42ae-b917-844e3b99808e",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-30T02:23:21.174Z",
+            "name": "BrazilPresDebate",
+            "description": "",
+            "first_seen": "2014-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Wilson Center",
+                    "url": "https://www.wilsoncenter.org/blog-post/bots-brazil-the-activity-social-media-bots-brazilian-elections",
+                    "external_id": "Wilson Center: bots brazil social media elections"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3387ae0a-743b-4383-a264-18be80fdda6d"
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}
