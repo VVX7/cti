@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--30bae277-f959-4c5c-8c08-7e2dfab4bd0b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--bf160f97-3e30-44ba-a2a9-f0ff1e1fcb6d",
+            "created": "2019-12-07T21:20:31.555Z",
+            "modified": "2019-12-08T02:20:31.555Z",
+            "name": "Macedonia",
+            "description": "Macedonia",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

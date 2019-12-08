@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--f81bf982-b986-4730-b11c-2752392322b6",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--10ff9003-ac6e-44cd-b594-b66332d03236",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-12-08T02:20:31.508Z",
+            "modified": "2019-12-08T02:20:31.508Z",
+            "name": "Use SMS/ WhatsApp/ Chat apps",
+            "description": "Direct messaging via encypted app is an increasing method of delivery. These messages are often automated and new delivery and storage methods make them anonymous, viral, and ephemeral. This is a diffucult space to monitor, but also a difficult space to build acclaim or notoriety.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "amitt-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "amitt-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0043.md",
+                    "external_id": "T0043"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_amitt_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_amitt_version": "1.0"
+        }
+    ]
+}

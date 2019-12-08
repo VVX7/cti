@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--c7dd87a6-f0cc-4a31-bd6f-2601e38c04cc",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-opencti-incident",
+            "id": "x-opencti-incident--05b87ca8-a422-4df0-81e0-b2c52e31bbb2",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-12-08T02:20:31.524Z",
+            "name": "#dislikemacron",
+            "description": "",
+            "first_seen": "2017-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Medium",
+                    "url": "https://medium.com/dfrlab/russian-and-french-twitter-mobs-in-election-push-bca327aa41a5",
+                    "external_id": "Medium: french twitter mobs in election"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

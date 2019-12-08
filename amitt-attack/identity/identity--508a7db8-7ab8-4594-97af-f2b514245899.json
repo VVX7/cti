@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6c0b42eb-cc25-427c-8d45-0176281568db",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--508a7db8-7ab8-4594-97af-f2b514245899",
+            "created": "2019-12-07T21:20:31.554Z",
+            "modified": "2019-12-08T02:20:31.554Z",
+            "name": "Qatar",
+            "description": "Qatar",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

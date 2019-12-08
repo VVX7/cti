@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--cf2fc395-bed1-40c7-b168-babeaee15442",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "campaign",
+            "id": "campaign--ecde262d-4be5-4c87-8f8e-9bef367d9b6d",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-12-08T02:20:31.539Z",
+            "name": "#VaccinateUS",
+            "description": "use both pro- and anti- topic messaging to create an artificial argument online. ",
+            "first_seen": "2014-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Washington Post",
+                    "url": "https://www.washingtonpost.com/science/2018/08/23/russian-trolls-twitter-bots-exploit-vaccine-controversy/",
+                    "external_id": "Washington Post 2018-08-23"
+                }
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

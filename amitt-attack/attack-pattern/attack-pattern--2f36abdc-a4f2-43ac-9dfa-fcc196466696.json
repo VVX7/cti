@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--50104fa5-5905-4d3d-9c17-b648f02c9ff7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--2f36abdc-a4f2-43ac-9dfa-fcc196466696",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-12-08T02:20:31.509Z",
+            "modified": "2019-12-08T02:20:31.509Z",
+            "name": "Seed distortions",
+            "description": "Incident creators often try a wide variety of messages in the early hours surrounding an incident or event in order to give a misleading account or impression. \n\nExamples: (2019) China formally arrests Canadians Spavor and Kovrig, accuses them of spying (in retaliation to detention of Hauwei CFO). (2018) The Russian ministry of defence put out a press release, claiming that they had intelligence Syrian rebel forces were about to gas their own people in Idlib province as part of a \u201cfalse flag\u201d operation to frame the Syrian government.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "amitt-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "amitt-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0044.md",
+                    "external_id": "T0044"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_amitt_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_amitt_version": "1.0"
+        }
+    ]
+}

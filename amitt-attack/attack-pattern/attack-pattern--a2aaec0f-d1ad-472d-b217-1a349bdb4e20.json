@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--e9e1d1e4-015e-44fd-b741-5271df1ce1d3",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--a2aaec0f-d1ad-472d-b217-1a349bdb4e20",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-12-08T02:20:31.498Z",
+            "modified": "2019-12-08T02:20:31.498Z",
+            "name": "Create fake or imposter news sites",
+            "description": "Modern computational propaganda makes use of a cadre of imposter news sites spreading globally. These sites, sometimes motivated by concerns other than propaganda--for instance, click-based revenue--often have some superficial markers of authenticity, such as naming and site-design. But many can be quickly exposed with reference to their owenership, reporting history and adverstising details. A prominent case from the 2016 era was the _Denver Guardian_, which purported to be a local newspaper in Colorado and specialized in negative stories about Hillary Clinton.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "amitt-attack",
+                    "phase_name": "develop-people"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "amitt-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0008.md",
+                    "external_id": "T0008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_amitt_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_amitt_version": "1.0"
+        }
+    ]
+}

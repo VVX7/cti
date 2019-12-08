@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--bd7de583-9c67-4bd4-af9c-da39fb9d2483",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--5c97516a-69ab-45df-8459-fdd9a7be1d5f",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-12-08T02:20:31.500Z",
+            "modified": "2019-12-08T02:20:31.500Z",
+            "name": "Create funding campaigns",
+            "description": "Generate revenue through online funding campaigns. e.g. Gather data, advance credible persona via Gofundme; Patreon; or via fake website connecting via PayPal or Stripe. (Example 2016) #VaccinateUS Gofundme campaigns to pay for Targetted facebook ads (Larry Cook, targetting Washington State mothers, $1,776 to boost posts over 9 months).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "amitt-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "amitt-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0014.md",
+                    "external_id": "T0014"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_amitt_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_amitt_version": "1.0"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--886e4c86-5ee3-4885-853d-be37a5ea22b5",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-opencti-incident",
+            "id": "x-opencti-incident--7d717934-89ca-44f4-a281-e85251066535",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-12-08T02:20:31.526Z",
+            "name": "MH17 downed",
+            "description": "",
+            "first_seen": "2014-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "Stopfake",
+                    "url": "https://www.stopfake.org/en/lies-spanish-flight-operations-officer-from-kiev-informed-about-ukrainian-planes-involved-in-boeing-tragedy/\n",
+                    "external_id": "Stopfake: ukrainian boeing tragedy"
+                },
+                {
+                    "source_name": "Global Voices",
+                    "url": "https:/globalvoices.org/2014/07/20/the-russian-governments-7000-wikipedia-edits/",
+                    "external_id": "Global Voices 2014-07-20"
+                },
+                {
+                    "source_name": "Foreign Policy",
+                    "url": "https:/foreignpolicy.com/2016/09/29/how-mh17-gave-bir",
+                    "external_id": "Foreign Policy 2016-09-29"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

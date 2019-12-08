@@ -1,0 +1,28 @@
+{
+    "type": "bundle",
+    "id": "bundle--94a4e573-83e6-46b9-bc10-8b222f4d9a6f",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-opencti-incident",
+            "id": "x-opencti-incident--226df512-e841-4a91-a6d5-fe51a22c65c1",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-12-08T02:20:31.530Z",
+            "name": "modamaniSelfie",
+            "description": "",
+            "first_seen": "2015-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "New York Times",
+                    "url": "https://www.nytimes.com/2017/02/06/business/syria-refugee-anas-modamani-germany-facebook.html",
+                    "external_id": "New York Times 2017-02-06"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

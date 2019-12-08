@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--87486b5c-2981-47b7-a8bd-abe3bef6e4fe",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--c3e662a0-788a-49fc-a7fb-4580a98b8fbb",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-12-08T02:20:31.508Z",
+            "modified": "2019-12-08T02:20:31.508Z",
+            "name": "Demand unsurmountable proof",
+            "description": "Campaigns often leverage tactical and informational asymmetries on the threat surface, as seen in the Distort and Deny strategies, and the \"firehose of misinformation\". Specifically, conspiracy theorists can be repeatedly wrong, but advocates of the truth need to be perfect. By constantly escalating demands for proof, propagandists can effectively leverage this asymmetry while also priming its future use, often with an even greater asymmetric advantage. The conspiracist is offered freer rein for a broader range of \"questions\" while the truth teller is burdened with higher and higher standards of proof.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "amitt-attack",
+                    "phase_name": "pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "amitt-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0040.md",
+                    "external_id": "T0040"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_amitt_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_amitt_version": "1.0"
+        }
+    ]
+}

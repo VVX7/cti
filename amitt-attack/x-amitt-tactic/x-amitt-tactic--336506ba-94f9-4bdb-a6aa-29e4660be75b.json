@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--167a3aec-afeb-4728-b435-aef688354d5d",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-tactic",
+            "id": "x-amitt-tactic--336506ba-94f9-4bdb-a6aa-29e4660be75b",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-12-08T02:20:31.494Z",
+            "modified": "2019-12-08T02:20:31.494Z",
+            "name": "Develop Networks",
+            "description": "Develop online and offline communities and transmission methods and cultivate assets and unwitting agents",
+            "external_references": [
+                {
+                    "source_name": "amitt-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA04.md",
+                    "external_id": "TA04"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_amitt_shortname": "develop-networks"
+        }
+    ]
+}

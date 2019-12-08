@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2cb1c5fb-c794-43e8-9c66-8314904977ae",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--ec9d7b63-4ad1-409c-8d2e-d78a078a921c",
+            "created": "2019-12-07T21:20:31.555Z",
+            "modified": "2019-12-08T02:20:31.555Z",
+            "name": "Canada",
+            "description": "Canada",
+            "identity_class": "organization",
+            "sectors": [
+                ""
+            ],
+            "contact_information": "",
+            "x_identified_via": ""
+        }
+    ]
+}

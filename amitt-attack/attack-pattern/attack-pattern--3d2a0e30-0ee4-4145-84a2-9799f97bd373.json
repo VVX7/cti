@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--280d806f-d6bf-4bb1-9923-d43dbc67ab1b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--3d2a0e30-0ee4-4145-84a2-9799f97bd373",
+            "created_by_ref": "identity--fbd47690-3403-4818-82d7-f102870678c2",
+            "created": "2019-12-08T02:20:31.501Z",
+            "modified": "2019-12-08T02:20:31.501Z",
+            "name": "Clickbait",
+            "description": "Create attention grabbing headlines (outrage, doubt, humor) required to drive traffic & engagement. (example 2016) \u201cPope Francis shocks world, endorses Donald Trump for president.\u201d (example 2016) \"FBI director received millions from Clinton Foundation, his brother\u2019s law firm does Clinton\u2019s taxes\u201d. This is a key asset",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "amitt-attack",
+                    "phase_name": "microtargeting"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "amitt-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0016.md",
+                    "external_id": "T0016"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--8c5638df-f6c0-4cbe-97f5-b5ada0a4a65b"
+            ],
+            "x_amitt_platforms": [
+                "Advertising",
+                "Audio",
+                "Augmented Reality",
+                "Digital Publication",
+                "Interactive Media",
+                "Mobile",
+                "Physical",
+                "Physical Publication",
+                "Social Media",
+                "Video",
+                "Video Game"
+            ],
+            "x_amitt_version": "1.0"
+        }
+    ]
+}
